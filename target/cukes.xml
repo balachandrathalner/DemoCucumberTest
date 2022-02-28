@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="0.342">
+    <testcase classname="check data Tables" name=": To check login" time="0.057">
+        <system-out><![CDATA[Given user is on landing page...............................................passed
+When user click on sign in button...........................................passed
+When user given username balu@gmail.com and password balu...................passed
+When click on submit button.................................................passed
+Then navigates to home page.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="check data Tables" name=": To check login 2" time="0.004">
+        <system-out><![CDATA[Given user is on landing page...............................................passed
+When user click on sign in button...........................................passed
+When user given username manu@gmail.com and password Manu...................passed
+When click on submit button.................................................passed
+Then navigates to home page.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="check data Tables" name="To check dataTables" time="0.004">
+        <system-out><![CDATA[Given user on form page.....................................................passed
+When need to send data to form from below table.............................passed
+Then user able to submit the form...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="check data Tables" name="To check dataTables 2" time="0.002">
+        <system-out><![CDATA[Given user on form page.....................................................passed
+When need to send data to form from below tables............................passed
+Then user able to submit the form...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="check data Tables" name="To check dataTables 3" time="0.008">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given user o................................................................undefined
+When need to send data to form fro..........................................skipped
+And iwduodiw................................................................skipped
+Then jlksd..................................................................skipped
+But ljdw....................................................................skipped
+]]></failure>
+    </testcase>
+</testsuite>

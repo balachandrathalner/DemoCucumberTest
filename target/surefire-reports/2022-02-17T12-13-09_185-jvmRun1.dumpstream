@@ -1,0 +1,59 @@
+# Created at 2022-02-17T12:14:56.877
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:396)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+# Created at 2022-02-17T12:15:16.741
+Unexpected IOException with stream:   Given user is on login page                               # stepDefinitions.loginStepDefinition.user_is_on_login_page()
+
+
+# Created at 2022-02-17T12:15:16.852
+Unexpected IOException with stream:   When user enters username "balachandra.thalner@gmail.com" # stepDefinitions.loginStepDefinition.user_enters_username_something(java.lang.String)
+
+
+# Created at 2022-02-17T12:15:16.916
+Unexpected IOException with stream:   And user enters password "balachandra"                    # stepDefinitions.loginStepDefinition.user_enters_password_something(java.lang.String)
+
+
+# Created at 2022-02-17T12:15:24.747
+Unexpected IOException with stream:   And user clicks on login button                           # stepDefinitions.loginStepDefinition.user_clicks_on_login_button()
+
+
+# Created at 2022-02-17T12:15:24.756
+Unexpected IOException with stream: page title is : My account - My Store
+
+
+# Created at 2022-02-17T12:15:24.757
+Unexpected IOException with stream:   Then user is gets the title of the page                   # stepDefinitions.loginStepDefinition.user_is_gets_the_title_of_the_page()
+
+
+# Created at 2022-02-17T12:15:24.759
+Unexpected IOException with stream:   And page title should be "My account - My Store"          # stepDefinitions.loginStepDefinition.page_title_should_be_something(java.lang.String)
+
+
+# Created at 2022-02-17T12:15:25.515
+Unexpected IOException: 6,1,testRunners.TestNgTestRunner,runScenario(testRunners.TestNgTestRunner),null,null,null
+
+
+# Created at 2022-02-17T12:15:25.983
+Unexpected IOException with stream: Feb 17, 2022 12:15:25 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+
+
+# Created at 2022-02-17T12:15:31.176
+Unexpected IOException with stream: ????????????????????????????????????????????????????????????????????????????
+? View your Cucumber Report at:                                            ?
+? https://reports.cucumber.io/reports/1960d960-73e3-4efc-a3b1-806aefc2f7af ?
+?                                                                          ?
+? This report will self-destruct in 24h.                                   ?
+? Keep reports forever: https://reports.cucumber.io/profile                ?
+????????????????????????????????????????????????????????????????????????????
+
+# Created at 2022-02-17T12:15:31.287
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,testRunners.TestNgTestRunner,null,null,null
+
+

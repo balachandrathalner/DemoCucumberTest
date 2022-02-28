@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: testRunners.TestNgTestRunner
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 134.23 s <<< FAILURE! - in testRunners.TestNgTestRunner
+runScenario(testRunners.TestNgTestRunner)  Time elapsed: 31.528 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Forgot your password?123"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'LAP-HYD-0X81095', ip: '192.168.162.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9a7f2858a5da1f0ebeeb071ac6c43f44, findElement {using=link text, value=Forgot your password?123}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\BALACH~1.4\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:50072}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50072/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9a7f2858a5da1f0ebeeb071ac6c43f44
+

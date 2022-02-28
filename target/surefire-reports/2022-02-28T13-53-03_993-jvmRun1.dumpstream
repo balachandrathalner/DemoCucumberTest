@@ -1,0 +1,43 @@
+# Created at 2022-02-28T13:54:03.701
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:396)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+# Created at 2022-02-28T13:54:04.242
+Unexpected IOException: 6,1,testRunners.TestNgTestRunner,runScenario(testRunners.TestNgTestRunner),null,null,null
+
+
+# Created at 2022-02-28T13:54:04.462
+Unexpected IOException with stream: Cleaning up unclosed ZipFile for archive C:\Users\balachandra.4\OneDrive - Coforge Limited\Desktop\automatonData.xlsx
+
+
+# Created at 2022-02-28T13:54:04.463
+Unexpected IOException with stream: Cleaning up unclosed ZipFile for archive C:\Users\balachandra.4\OneDrive - Coforge Limited\Desktop\automatonData.xlsx
+
+
+# Created at 2022-02-28T13:54:04.464
+Unexpected IOException with stream: Cleaning up unclosed ZipFile for archive C:\Users\balachandra.4\OneDrive - Coforge Limited\Desktop\automatonData.xlsx
+
+
+# Created at 2022-02-28T13:54:04.941
+Unexpected IOException with stream: Feb 28, 2022 1:54:04 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+
+
+# Created at 2022-02-28T13:54:20.363
+Unexpected IOException with stream: ????????????????????????????????????????????????????????????????????????????
+? View your Cucumber Report at:                                            ?
+? https://reports.cucumber.io/reports/b9d86a83-4d47-4a3e-8db8-877a92fb7235 ?
+?                                                                          ?
+? This report will self-destruct in 24h.                                   ?
+? Keep reports forever: https://reports.cucumber.io/profile                ?
+????????????????????????????????????????????????????????????????????????????
+
+# Created at 2022-02-28T13:54:20.504
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,testRunners.TestNgTestRunner,null,null,null
+
+
