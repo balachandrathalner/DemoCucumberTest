@@ -13,12 +13,15 @@ public class checkStep {
 	@Given("user is on landing page")
 	public void user_is_on_landing_page() {
 	 
+		System.out.println("Landing page");
 	}
 	@When("user click on sign in button")
 	public void user_click_on_sign_in_button() {
 	
 		
 	}
+	
+	
 	 @When("^user given username (.+) and password (.+)$")
 	    public void user_given_username_and_password(String username, String password) throws Throwable {
 	    

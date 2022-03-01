@@ -1,5 +1,0 @@
-file:src/test/resources/features/ContactUs.feature:13:14
-file:src/test/resources/features/CreateAccount.feature:19:20:32
-file:src/test/resources/features/check.feature:15
-file:src/test/resources/features/AccountsPage.feature:8:14
-file:src/test/resources/features/login.feature:4:11:28
