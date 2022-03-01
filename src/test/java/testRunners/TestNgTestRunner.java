@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 
 
 @CucumberOptions(
-		features={"src\\test\\resources\\features\\FooterSection.feature"},glue = {"stepDefinitions","AppHooks"},
+		features={"src\\test\\resources\\features\\CreateAccount.feature"},glue = {"stepDefinitions","AppHooks"},
 		
 		monochrome = true,dryRun = false,
 		//tags = "not @skip",
