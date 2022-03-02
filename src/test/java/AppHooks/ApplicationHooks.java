@@ -78,9 +78,5 @@ public class ApplicationHooks {
 		}
 	}
 	
-//	@BeforeStep
-//	public void beforestep() {
-//		System.out.println("Before step*************************************");
-//	}
 
 }

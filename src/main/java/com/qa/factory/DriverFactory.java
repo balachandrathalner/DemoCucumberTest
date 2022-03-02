@@ -4,12 +4,14 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.safari.SafariDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import net.bytebuddy.asm.Advice.Return;
+
 
 public class DriverFactory {
 
@@ -18,30 +20,42 @@ public class DriverFactory {
 	
 	public static ThreadLocal<WebDriver> tlDriver =new ThreadLocal<>();
 	
+	@SuppressWarnings("deprecation")
 	public WebDriver initilizeDriver(String browserName) {
 		
 	
 		System.out.println("browser value is : "+browserName );
 		
-		if(browserName.equals("chrome")) {
+		if(browserName.contains("chrome")) {
 			
 
 			//System.setProperty("webdriver.chrome.driver", "C:\\Users\\balachandra.4\\OneDrive - Coforge Limited\\Desktop\\Softwares\\Chromedriver\\Chromedriver.exe");
 			
 			//driver=new ChromeDriver();
 			
+			
 			WebDriverManager.chromedriver().setup();
-			tlDriver.set(new ChromeDriver());
+			
+			ChromeOptions options=new ChromeOptions();
+			
+			if(browserName.contains("headless")) {
+				
+				options.addArguments("headless");
+				
+			}
+			
+			tlDriver.set(new ChromeDriver(options));
 			
 			
 		}
 		
 		else if(browserName.equals("firefox")) {
+		
 			
-
-			WebDriverManager.firefoxdriver().setup();
+			System.setProperty("webdriver.gecko.driver", "C:\\Users\\balachandra.4\\eclipse-workspace\\CucumberAutomation\\src\\test\\resources\\geckodriver.exe");
+	
 			tlDriver.set(new FirefoxDriver());
-			
+		
 		} 
 		
 
