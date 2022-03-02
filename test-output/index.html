@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\balachandra.4\AppData\Local\Temp\testng-eclipse--79401496\testng-customsuite.xml</span>
+                    <span>C:\Users\balachandra.4\AppData\Local\Temp\testng-eclipse--360851771\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,26 +93,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods, 3 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content failed suite-Default_suite">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;to check footer information section&quot;, &quot;Optional[Footer section]&quot;)">runScenario("to check footer information section", "Optional[Footer section]")</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Fill the Invalid personal information form&quot;, &quot;Optional[Create new user account]&quot;)">runScenario("Fill the Invalid personal information form", "Optional[Create new user account]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;to check login page title&quot;, &quot;Optional[Footer section]&quot;)">runScenario("to check login page title", "Optional[Footer section]")</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Fill the valid personal information form&quot;, &quot;Optional[Create new user account]&quot;)">runScenario("Fill the valid personal information form", "Optional[Create new user account]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Fill the Invalid personal information form&quot;, &quot;Optional[Create new user account]&quot;)">runScenario("Fill the Invalid personal information form", "Optional[Create new user account]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -124,38 +129,106 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">testRunners.TestNgTestRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;to check footer information section&quot;, &quot;Optional[Footer section]&quot;)">
-                  </a> <!-- runScenario("to check footer information section", "Optional[Footer section]") -->
+                  <a name="runScenario(&quot;Fill the Invalid personal information form&quot;, &quot;Optional[Create new user account]&quot;)">
+                  </a> <!-- runScenario("Fill the Invalid personal information form", "Optional[Create new user account]") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("to check footer information section", "Optional[Footer section]")</span>
+                  <span class="parameters">("Fill the Invalid personal information form", "Optional[Create new user account]")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.id: email_create
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;LAP-HYD-0X81095&apos;, ip: &apos;192.168.178.30&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at com.pageObjects.LoginPage.sendCreateAccountEmailId(LoginPage.java:95)
+	at stepDefinitions.CreateAccountStep.user_enters_email_address_lenth_of_to_create_an_account(CreateAccountStep.java:48)
+	at ✽.user enters email address lenth of 5 to create an account(file:///C:/Users/balachandra.4/eclipse-workspace/CucumberAutomation/src/test/resources/features/CreateAccount.feature:6)
+
+</div> <!-- stack-trace -->
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;to check login page title&quot;, &quot;Optional[Footer section]&quot;)">
-                  </a> <!-- runScenario("to check login page title", "Optional[Footer section]") -->
+                  <a name="runScenario(&quot;Fill the valid personal information form&quot;, &quot;Optional[Create new user account]&quot;)">
+                  </a> <!-- runScenario("Fill the valid personal information form", "Optional[Create new user account]") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("to check login page title", "Optional[Footer section]")</span>
+                  <span class="parameters">("Fill the valid personal information form", "Optional[Create new user account]")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#email_create&quot;}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;LAP-HYD-0X81095&apos;, ip: &apos;192.168.178.30&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c86f8b1633512a23a8fba4c12b9714c5, findElement {using=id, value=email_create}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\BALACH~1.4\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52234}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52234/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c86f8b1633512a23a8fba4c12b9714c5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at com.pageObjects.LoginPage.sendCreateAccountEmailId(LoginPage.java:95)
+	at stepDefinitions.CreateAccountStep.user_enters_email_address_lenth_of_to_create_an_account(CreateAccountStep.java:48)
+	at ✽.user enters email address lenth of 5 to create an account(file:///C:/Users/balachandra.4/eclipse-workspace/CucumberAutomation/src/test/resources/features/CreateAccount.feature:6)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Fill the Invalid personal information form&quot;, &quot;Optional[Create new user account]&quot;)">
+                  </a> <!-- runScenario("Fill the Invalid personal information form", "Optional[Create new user account]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Fill the Invalid personal information form", "Optional[Create new user account]")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.id: email_create
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;LAP-HYD-0X81095&apos;, ip: &apos;192.168.178.30&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at com.pageObjects.LoginPage.sendCreateAccountEmailId(LoginPage.java:95)
+	at stepDefinitions.CreateAccountStep.user_enters_email_address_lenth_of_to_create_an_account(CreateAccountStep.java:48)
+	at ✽.user enters email address lenth of 5 to create an account(file:///C:/Users/balachandra.4/eclipse-workspace/CucumberAutomation/src/test/resources/features/CreateAccount.feature:6)
+
+</div> <!-- stack-trace -->
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
+          </div> <!-- suite-Default_suite-class-failed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\balachandra.4\AppData\Local\Temp\testng-eclipse--79401496\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\balachandra.4\AppData\Local\Temp\testng-eclipse--360851771\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -212,20 +285,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'testRunners.TestNgTestRunner')
-data.setCell(0, 3, 26588);
+data.setCell(0, 3, 26034);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'testRunners.TestNgTestRunner')
-data.setCell(1, 3, 25552);
+data.setCell(1, 3, 22632);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'testRunners.TestNgTestRunner')
+data.setCell(2, 3, 22328);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 52 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -253,20 +330,30 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testRunners.TestNgTestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@68b7d0ef)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@3b046e64)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("to check footer information section", "Optional[Footer section]")</span>
-                <span class="method-start">3171 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Fill the Invalid personal information form", "Optional[Create new user account]")</span>
+                <span class="method-start">1579 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">runScenario("to check login page title", "Optional[Footer section]")</span>
-                <span class="method-start">3171 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Fill the Invalid personal information form", "Optional[Create new user account]")</span>
+                <span class="method-start">23912 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Fill the valid personal information form", "Optional[Create new user account]")</span>
+                <span class="method-start">46546 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">29762 ms</span>
+                <span class="method-start">72585 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 
 
 @CucumberOptions(
-		features={"src\\test\\resources\\features\\CreateAccount.feature"},glue = {"stepDefinitions","AppHooks"},
+features={"src\\test\\resources\\features"},glue = {"stepDefinitions","AppHooks"},
 		
 		monochrome = true,dryRun = false,
 		//tags = "not @skip",
@@ -24,13 +24,13 @@ import io.cucumber.testng.CucumberOptions;
 
 public class TestNgTestRunner extends AbstractTestNGCucumberTests {
 	
-	@Override
-	@DataProvider(parallel=true)
+	//@Override
+	//@DataProvider(parallel=true)
 	
-	public Object[][] scenarios(){
-		return super.scenarios();
+	//public Object[][] scenarios(){
+		//return super.scenarios();
 		
-	}
+	// }
 	
 	
 	
