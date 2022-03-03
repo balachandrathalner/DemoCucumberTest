@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Grasshopper Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Mar 2, 2022 07:02:04 PM</span></a>
+<a href="#"><span class="badge badge-primary">Mar 3, 2022 12:46:08 pm</span></a>
 </li>
 </ul>
 </div>
@@ -71,13 +71,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Mar 2, 2022 07:02:04 PM</h3>
+<h3>Mar 3, 2022 12:46:08 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Mar 2, 2022 07:05:36 PM</h3>
+<h3>Mar 3, 2022 12:47:22 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -167,7 +167,7 @@
 </div></div>
 <script>
 var timeline = {
-"Account page feature":53.97,"contact Us feature":64.607,"Create new user account":69.842,"Footer section":95.55,"check data Tables":37.545,"Login page feature":66.083
+"Create new user account":73.561,"Footer section":43.687,"Account page feature":50.981,"contact Us feature":53.504,"check data Tables":12.631,"Login page feature":39.884
 };
 </script>
 <div class="row">
@@ -177,16 +177,16 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@sanity</td>
-<td>3</td>
+<td>@skip_scenario</td>
 <td>0</td>
 <td>0</td>
+<td>1</td>
 <td>0</td>
-<td>100%</td>
+<td>0%</td>
 </tr>
 <tr>
-<td>@smoke</td>
-<td>1</td>
+<td>@sanity</td>
+<td>3</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
@@ -201,12 +201,12 @@ var timeline = {
 <td>100%</td>
 </tr>
 <tr>
-<td>@skip_scenario</td>
-<td>0</td>
-<td>0</td>
+<td>@smoke</td>
 <td>1</td>
 <td>0</td>
-<td>0%</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
 </tr>
 </tbody>
 </table></div>
@@ -219,16 +219,16 @@ var timeline = {
 <thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
 <tbody>
 <tr>
-<td>build</td>
-<td>1.1</td>
+<td>AppName</td>
+<td>CucumberAutomation</td>
 </tr>
 <tr>
 <td>user</td>
 <td>Balachandra</td>
 </tr>
 <tr>
-<td>AppName</td>
-<td>CucumberAutomation</td>
+<td>build</td>
+<td>1.1</td>
 </tr>
 <tr>
 <td>os</td>
@@ -280,7 +280,7 @@ eventsCount: 5,
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@sanity</a><a class="dropdown-item" href="#">@smoke</a><a class="dropdown-item" href="#">@skip</a><a class="dropdown-item" href="#">@skip_scenario</a>
+<a class="dropdown-item" href="#">@skip_scenario</a><a class="dropdown-item" href="#">@sanity</a><a class="dropdown-item" href="#">@skip</a><a class="dropdown-item" href="#">@smoke</a>
 </ul>
 </li>
 </ul>
@@ -291,9 +291,9 @@ eventsCount: 5,
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Account page feature</p>
+            <p class="name">Create new user account</p>
             <p class="text-sm">
-              <span>7:02:07 PM</span> / <span>00:00:53:970</span>
+              <span>12:46:09 pm</span> / <span>00:01:13:561</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -301,10 +301,10 @@ eventsCount: 5,
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Account page feature</h5>
-<span class='badge badge-success'>03.02.2022 7:02:07 PM</span>
-<span class='badge badge-danger'>03.02.2022 7:03:01 PM</span>
-<span class='badge badge-default'>00:00:53:970</span>
+<h5 class="test-status text-pass">Create new user account</h5>
+<span class='badge badge-success'>03.03.2022 12:46:09 pm</span>
+<span class='badge badge-danger'>03.03.2022 12:47:22 pm</span>
+<span class='badge badge-default'>00:01:13:561</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -316,306 +316,14 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Accounts page title</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepDefinitions.AccountsPagstepDefinition.user_already_logged_into_application(io.cucumber.datatable.DataTable)">
-                <span>Given user already logged into application</span>
-      <div><table class='markup-table table '><tr><td>username</td><td>password</td></tr><tr><td>balachandra.thalner@gmail.com</td><td>balachandra</td></tr></table>
-      </div>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDefinitions.AccountsPagstepDefinition.user_is_on_accounts_page()">
-                <span>Given user is on Accounts page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDefinitions.loginStepDefinition.user_is_gets_the_title_of_the_page()">
-                <span>When user is gets the title of the page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDefinitions.loginStepDefinition.page_title_should_be_something(java.lang.String)">
-                <span>Then page title should be "My account - My Store"</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="6"><span class="badge log pass-bg mr-2">Pass</span>Account section count</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepDefinitions.AccountsPagstepDefinition.user_already_logged_into_application(io.cucumber.datatable.DataTable)">
-                <span>Given user already logged into application</span>
-      <div><table class='markup-table table '><tr><td>username</td><td>password</td></tr><tr><td>balachandra.thalner@gmail.com</td><td>balachandra</td></tr></table>
-      </div>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDefinitions.AccountsPagstepDefinition.user_is_on_accounts_page()">
-                <span>Given user is on Accounts page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDefinitions.AccountsPagstepDefinition.user_gets_account_section(io.cucumber.datatable.DataTable)">
-                <span>Then user gets Account section</span>
-      <div><table class='markup-table table '><tr><td>ORDER HISTORY AND DETAILS</td></tr><tr><td>MY CREDIT SLIPS</td></tr><tr><td>MY ADDRESSES</td></tr><tr><td>MY PERSONAL INFORMATION</td></tr><tr><td>MY WISHLISTS</td></tr><tr><td>Home</td></tr></table>
-      </div>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDefinitions.AccountsPagstepDefinition.accounts_section_count_should_be(java.lang.Integer)">
-                <span>And Accounts section count should be 6</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="3"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">contact Us feature</p>
-            <p class="text-sm">
-              <span>7:02:07 PM</span> / <span>00:01:04:607</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">contact Us feature</h5>
-<span class='badge badge-success'>03.02.2022 7:02:07 PM</span>
-<span class='badge badge-danger'>03.02.2022 7:03:12 PM</span>
-<span class='badge badge-default'>00:01:04:607</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-<div class="m-t-10 m-l-5"></div>
-</div>
-</div>
-<div class="accordion mt-4">
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="4"><span class="badge log pass-bg mr-2">Pass</span>contact scenario with different sets of data</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Fill the valid personal information form</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="5"><span class="badge log pass-bg mr-2">Pass</span>contact scenario with different sets of data</div>
-                </div>
-              </div>
-              <div class="card-body mt-3 collapse">
-                  <div class="step pass-bg">
-                    <span>Given user navigates to contact us page</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>When user fills the form from given sheetname "contactUs" and rowNumber 0</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>And clicks on send button</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>Then it shows successful message "Your message has been successfully sent to our team."</span>
-      <div>
-      </div>
-                  </div>
-              </div>
-            </div>
-            <div class="card-body l1">
-              <div class="card-header">
-                <div class="card-title outline-child">
-                  <div class="node" id="7"><span class="badge log pass-bg mr-2">Pass</span>contact scenario with different sets of data</div>
-                </div>
-              </div>
-              <div class="card-body mt-3 collapse">
-                  <div class="step pass-bg">
-                    <span>Given user navigates to contact us page</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>When user fills the form from given sheetname "contactUs" and rowNumber 1</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>And clicks on send button</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>Then it shows successful message "Your message has been successfully sent to our team."</span>
-      <div>
-      </div>
-                  </div>
-              </div>
-            </div>
-        </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="34"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">Create new user account</p>
-            <p class="text-sm">
-              <span>7:03:01 PM</span> / <span>00:01:09:842</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">Create new user account</h5>
-<span class='badge badge-success'>03.02.2022 7:03:01 PM</span>
-<span class='badge badge-danger'>03.02.2022 7:04:11 PM</span>
-<span class='badge badge-default'>00:01:09:842</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=34</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-<div class="m-t-10 m-l-5"></div>
-</div>
-</div>
-<div class="accordion mt-4">
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="35"><span class="badge log pass-bg mr-2">Pass</span>Fill the Invalid personal information form</div>
-      </div>
-    </div>
-        <div class="scenario_outline collapse">
-            <div class="card-body l1">
-              <div class="card-header">
-                <div class="card-title outline-child">
-                  <div class="node" id="36"><span class="badge log pass-bg mr-2">Pass</span>Fill the Invalid personal information form</div>
-                </div>
-              </div>
-              <div class="card-body mt-3 collapse">
-                  <div class="step pass-bg">
-                    <span>Given user is allready on landing page</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>When user enters email address lenth of 5 to create an account</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>And click on create an account button</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>Then it should be navigates to "YOUR PERSONAL INFORMATION" page</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>Given user fills the invalid personal information from the given sheetname "InvalidPersonalInfo" and rownumber 0</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>When user clicked on Register button</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>Then getting error message</span>
-      <div>
-      </div>
-                  </div>
-              </div>
-            </div>
-            <div class="card-body l1">
-              <div class="card-header">
-                <div class="card-title outline-child">
-                  <div class="node" id="39"><span class="badge log pass-bg mr-2">Pass</span>Fill the Invalid personal information form</div>
-                </div>
-              </div>
-              <div class="card-body mt-3 collapse">
-                  <div class="step pass-bg">
-                    <span>Given user is allready on landing page</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>When user enters email address lenth of 5 to create an account</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>And click on create an account button</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>Then it should be navigates to "YOUR PERSONAL INFORMATION" page</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>Given user fills the invalid personal information from the given sheetname "InvalidPersonalInfo" and rownumber 1</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>When user clicked on Register button</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>Then getting error message</span>
-      <div>
-      </div>
-                  </div>
-              </div>
-            </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="48"><span class="badge log pass-bg mr-2">Pass</span>Fill the valid personal information form</div>
-      </div>
-    </div>
-        <div class="scenario_outline collapse">
-            <div class="card-body l1">
-              <div class="card-header">
-                <div class="card-title outline-child">
-                  <div class="node" id="49"><span class="badge log pass-bg mr-2">Pass</span>Fill the valid personal information form</div>
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Fill the valid personal information form</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -658,17 +366,114 @@ eventsCount: 5,
             </div>
         </div>
   </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="14"><span class="badge log pass-bg mr-2">Pass</span>Fill the Invalid personal information form</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="15"><span class="badge log pass-bg mr-2">Pass</span>Fill the Invalid personal information form</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is allready on landing page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enters email address lenth of 5 to create an account</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on create an account button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then it should be navigates to "YOUR PERSONAL INFORMATION" page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given user fills the invalid personal information from the given sheetname "InvalidPersonalInfo" and rownumber 1</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user clicked on Register button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then getting error message</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="18"><span class="badge log pass-bg mr-2">Pass</span>Fill the Invalid personal information form</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is allready on landing page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enters email address lenth of 5 to create an account</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on create an account button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then it should be navigates to "YOUR PERSONAL INFORMATION" page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given user fills the invalid personal information from the given sheetname "InvalidPersonalInfo" and rownumber 0</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user clicked on Register button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then getting error message</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="52"
+        <li class="test-item"  status="fail" test-id="4"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Footer section</p>
             <p class="text-sm">
-              <span>7:03:12 PM</span> / <span>00:01:35:550</span>
+              <span>12:46:09 pm</span> / <span>00:00:43:687</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -677,10 +482,10 @@ eventsCount: 5,
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">Footer section</h5>
-<span class='badge badge-success'>03.02.2022 7:03:12 PM</span>
-<span class='badge badge-danger'>03.02.2022 7:04:47 PM</span>
-<span class='badge badge-default'>00:01:35:550</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=52</span>
+<span class='badge badge-success'>03.03.2022 12:46:09 pm</span>
+<span class='badge badge-danger'>03.03.2022 12:46:53 pm</span>
+<span class='badge badge-default'>00:00:43:687</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
@@ -691,10 +496,13 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="53"><span class="badge log pass-bg mr-2">Pass</span>to check login page title</div>
+        <div class="node" id="5"><span class="badge log fail-bg mr-2">Fail</span>to check footer information section</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
       </div>
     </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
               <div class="step pass-bg" title="stepDefinitions.FooterSectionStep.user_is_alreday_on_landing_page()">
                 <span>Given user is alreday on landing page</span>
@@ -706,13 +514,35 @@ eventsCount: 5,
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinitions.loginStepDefinition.user_is_gets_the_title_of_the_page()">
-                <span>When user is gets the title of the page</span>
+              <div class="step fail-bg" title="stepDefinitions.FooterSectionStep.user_gets_information_section(io.cucumber.datatable.DataTable)">
+                <span>When user gets information section</span>
+      <div><table class='markup-table table '><tr><td>About us</td></tr><tr><td>Sitemap</td></tr></table>
+      </div>
       <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at stepDefinitions.FooterSectionStep.user_gets_information_section(FooterSectionStep.java:33)
+	at ?.user gets information section(file:///C:/Users/balachandra.4/eclipse-workspace/CucumberAutomation/src/test/resources/features/FooterSection.feature:34)
+</textarea>
+      
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinitions.loginStepDefinition.page_title_should_be_something(java.lang.String)">
-                <span>Then page title should be "Login - My Store"</span>
+              <div class="step skip-bg" title="stepDefinitions.FooterSectionStep.information_section_should_be(java.lang.Integer)">
+                <span>Then information section should be 8</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>AppHooks.ApplicationHooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>to-check-footer-information-section
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./screenshots/embedded1.png' src="./screenshots/embedded1.png">
+    
+    </div></div>
+</div>
       <div>
       </div>
               </div>
@@ -722,7 +552,7 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="77"><span class="badge log pass-bg mr-2">Pass</span>to check footer information section</div>
+        <div class="node" id="6"><span class="badge log pass-bg mr-2">Pass</span>to check footer information section</div>
       </div>
     </div>
         <div class="collapse">
@@ -755,13 +585,10 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="90"><span class="badge log fail-bg mr-2">Fail</span>to check footer information section</div>
-          <div class="status-avatar float-right mr-4">
-            <i class="fa fa-paperclip"></i>
-          </div>
+        <div class="node" id="13"><span class="badge log pass-bg mr-2">Pass</span>to check login page title</div>
       </div>
     </div>
-        <div class="">
+        <div class="collapse">
           <div class="card-body">
               <div class="step pass-bg" title="stepDefinitions.FooterSectionStep.user_is_alreday_on_landing_page()">
                 <span>Given user is alreday on landing page</span>
@@ -773,35 +600,13 @@ eventsCount: 5,
       <div>
       </div>
               </div>
-              <div class="step fail-bg" title="stepDefinitions.FooterSectionStep.user_gets_information_section(io.cucumber.datatable.DataTable)">
-                <span>When user gets information section</span>
-      <div><table class='markup-table table '><tr><td>About us</td></tr><tr><td>Sitemap</td></tr></table>
-      </div>
+              <div class="step pass-bg" title="stepDefinitions.loginStepDefinition.user_is_gets_the_title_of_the_page()">
+                <span>When user is gets the title of the page</span>
       <div>
-        <textarea disabled class="code-block">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertTrue(Assert.java:44)
-	at org.testng.Assert.assertTrue(Assert.java:54)
-	at stepDefinitions.FooterSectionStep.user_gets_information_section(FooterSectionStep.java:33)
-	at ?.user gets information section(file:///C:/Users/balachandra.4/eclipse-workspace/CucumberAutomation/src/test/resources/features/FooterSection.feature:34)
-</textarea>
-      
       </div>
               </div>
-              <div class="step skip-bg" title="stepDefinitions.FooterSectionStep.information_section_should_be(java.lang.Integer)">
-                <span>Then information section should be 8</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step pass-bg" title="AFTER">
-                <span>AppHooks.ApplicationHooks.tearDown(io.cucumber.java.Scenario)</span>
-      <div>to-check-footer-information-section
-          <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='./screenshots/embedded1.png' src="./screenshots/embedded1.png">
-    
-    </div></div>
-</div>
+              <div class="step pass-bg" title="stepDefinitions.loginStepDefinition.page_title_should_be_something(java.lang.String)">
+                <span>Then page title should be "Login - My Store"</span>
       <div>
       </div>
               </div>
@@ -811,14 +616,14 @@ eventsCount: 5,
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="96"
+        <li class="test-item"  status="pass" test-id="7"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">check data Tables</p>
+            <p class="name">Account page feature</p>
             <p class="text-sm">
-              <span>7:04:10 PM</span> / <span>00:00:37:545</span>
+              <span>12:46:09 pm</span> / <span>00:00:50:981</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -826,11 +631,11 @@ eventsCount: 5,
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">check data Tables</h5>
-<span class='badge badge-success'>03.02.2022 7:04:10 PM</span>
-<span class='badge badge-danger'>03.02.2022 7:04:48 PM</span>
-<span class='badge badge-default'>00:00:37:545</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=96</span>
+<h5 class="test-status text-pass">Account page feature</h5>
+<span class='badge badge-success'>03.03.2022 12:46:09 pm</span>
+<span class='badge badge-danger'>03.03.2022 12:47:00 pm</span>
+<span class='badge badge-default'>00:00:50:981</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
@@ -841,14 +646,209 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="97"><span class="badge log pass-bg mr-2">Pass</span>: To check login</div>
+        <div class="node" id="8"><span class="badge log pass-bg mr-2">Pass</span>Accounts page title</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.AccountsPagstepDefinition.user_already_logged_into_application(io.cucumber.datatable.DataTable)">
+                <span>Given user already logged into application</span>
+      <div><table class='markup-table table '><tr><td>username</td><td>password</td></tr><tr><td>balachandra.thalner@gmail.com</td><td>balachandra</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AccountsPagstepDefinition.user_is_on_accounts_page()">
+                <span>Given user is on Accounts page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.loginStepDefinition.user_is_gets_the_title_of_the_page()">
+                <span>When user is gets the title of the page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.loginStepDefinition.page_title_should_be_something(java.lang.String)">
+                <span>Then page title should be "My account - My Store"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="16"><span class="badge log pass-bg mr-2">Pass</span>Account section count</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.AccountsPagstepDefinition.user_already_logged_into_application(io.cucumber.datatable.DataTable)">
+                <span>Given user already logged into application</span>
+      <div><table class='markup-table table '><tr><td>username</td><td>password</td></tr><tr><td>balachandra.thalner@gmail.com</td><td>balachandra</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AccountsPagstepDefinition.user_is_on_accounts_page()">
+                <span>Given user is on Accounts page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AccountsPagstepDefinition.user_gets_account_section(io.cucumber.datatable.DataTable)">
+                <span>Then user gets Account section</span>
+      <div><table class='markup-table table '><tr><td>ORDER HISTORY AND DETAILS</td></tr><tr><td>MY CREDIT SLIPS</td></tr><tr><td>MY ADDRESSES</td></tr><tr><td>MY PERSONAL INFORMATION</td></tr><tr><td>MY WISHLISTS</td></tr><tr><td>Home</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AccountsPagstepDefinition.accounts_section_count_should_be(java.lang.Integer)">
+                <span>And Accounts section count should be 6</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">contact Us feature</p>
+            <p class="text-sm">
+              <span>12:46:09 pm</span> / <span>00:00:53:504</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">contact Us feature</h5>
+<span class='badge badge-success'>03.03.2022 12:46:09 pm</span>
+<span class='badge badge-danger'>03.03.2022 12:47:02 pm</span>
+<span class='badge badge-default'>00:00:53:504</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="10"><span class="badge log pass-bg mr-2">Pass</span>contact scenario with different sets of data</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="98"><span class="badge log pass-bg mr-2">Pass</span>: To check login</div>
+                  <div class="node" id="11"><span class="badge log pass-bg mr-2">Pass</span>contact scenario with different sets of data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user navigates to contact us page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user fills the form from given sheetname "contactUs" and rowNumber 0</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And clicks on send button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then it shows successful message "Your message has been successfully sent to our team."</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="12"><span class="badge log pass-bg mr-2">Pass</span>contact scenario with different sets of data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user navigates to contact us page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user fills the form from given sheetname "contactUs" and rowNumber 1</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And clicks on send button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then it shows successful message "Your message has been successfully sent to our team."</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="61"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">check data Tables</p>
+            <p class="text-sm">
+              <span>12:46:30 pm</span> / <span>00:00:12:631</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">check data Tables</h5>
+<span class='badge badge-success'>03.03.2022 12:46:30 pm</span>
+<span class='badge badge-danger'>03.03.2022 12:46:42 pm</span>
+<span class='badge badge-default'>00:00:12:631</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=61</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="62"><span class="badge log pass-bg mr-2">Pass</span>: To check login</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="63"><span class="badge log pass-bg mr-2">Pass</span>: To check login</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -882,7 +882,7 @@ eventsCount: 5,
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="101"><span class="badge log pass-bg mr-2">Pass</span>: To check login</div>
+                  <div class="node" id="66"><span class="badge log pass-bg mr-2">Pass</span>: To check login</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -918,7 +918,7 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="110"><span class="badge log pass-bg mr-2">Pass</span>To check dataTables</div>
+        <div class="node" id="89"><span class="badge log pass-bg mr-2">Pass</span>To check dataTables</div>
       </div>
     </div>
         <div class="collapse">
@@ -946,7 +946,7 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="127"><span class="badge log pass-bg mr-2">Pass</span>To check dataTables</div>
+        <div class="node" id="92"><span class="badge log pass-bg mr-2">Pass</span>To check dataTables</div>
       </div>
     </div>
         <div class="collapse">
@@ -974,14 +974,14 @@ eventsCount: 5,
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="130"
+        <li class="test-item"  status="fail" test-id="95"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Login page feature</p>
             <p class="text-sm">
-              <span>7:04:30 PM</span> / <span>00:01:06:083</span>
+              <span>12:46:37 pm</span> / <span>00:00:39:884</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -990,10 +990,10 @@ eventsCount: 5,
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">Login page feature</h5>
-<span class='badge badge-success'>03.02.2022 7:04:30 PM</span>
-<span class='badge badge-danger'>03.02.2022 7:05:36 PM</span>
-<span class='badge badge-default'>00:01:06:083</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=130</span>
+<span class='badge badge-success'>03.03.2022 12:46:37 pm</span>
+<span class='badge badge-danger'>03.03.2022 12:47:17 pm</span>
+<span class='badge badge-default'>00:00:39:884</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=95</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
@@ -1004,7 +1004,7 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="131"><span class="badge log skip-bg mr-2">Skip</span>Login page title</div>
+        <div class="node" id="96"><span class="badge log skip-bg mr-2">Skip</span>Login page title</div>
       </div>
     </div>
         <div class="">
@@ -1030,7 +1030,7 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="155"><span class="badge log fail-bg mr-2">Fail</span>Forgot password link</div>
+        <div class="node" id="116"><span class="badge log fail-bg mr-2">Fail</span>Forgot password link</div>
           <div class="status-avatar float-right mr-4">
             <i class="fa fa-paperclip"></i>
           </div>
@@ -1049,15 +1049,16 @@ eventsCount: 5,
         <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: Unable to locate element: Forgot your password?123
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'LAP-HYD-0X81095', ip: '192.168.176.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0-262'
+System info: host: 'LAP-HYD-0X81095', ip: '192.168.168.248', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [2d11262e-cca5-4bf9-abd7-3455a918689c, findElement {using=link text, value=Forgot your password?123}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 91.6.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220131231250, moz:debuggerAddress: localhost:50978, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 29476, moz:profile: C:\Users\balachandra.4\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:50978/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2d11262e-cca5-4bf9-abd7-3455a918689c
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+Command: [acdf49ab-fde4-468e-9b57-e98a6f505c71, findElement {using=link text, value=Forgot your password?123}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 91.6.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220131231250, moz:debuggerAddress: localhost:61061, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 17604, moz:profile: C:\Users\balachandra.4\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:61061/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: acdf49ab-fde4-468e-9b57-e98a6f505c71
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -1071,7 +1072,7 @@ Session ID: 2d11262e-cca5-4bf9-abd7-3455a918689c
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy27.isDisplayed(Unknown Source)
+	at com.sun.proxy.$Proxy31.isDisplayed(Unknown Source)
 	at com.pageObjects.LoginPage.isForgotPWdLinkExist(LoginPage.java:54)
 	at stepDefinitions.loginStepDefinition.forgot_your_password_link_should_be_displayed(loginStepDefinition.java:56)
 	at ?.forgot your password link should be displayed(file:///C:/Users/balachandra.4/eclipse-workspace/CucumberAutomation/src/test/resources/features/login.feature:14)
@@ -1096,14 +1097,14 @@ Session ID: 2d11262e-cca5-4bf9-abd7-3455a918689c
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="158"><span class="badge log pass-bg mr-2">Pass</span>Login with correct credentials</div>
+        <div class="node" id="119"><span class="badge log pass-bg mr-2">Pass</span>Login with correct credentials</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="159"><span class="badge log pass-bg mr-2">Pass</span>Login with correct credentials</div>
+                  <div class="node" id="120"><span class="badge log pass-bg mr-2">Pass</span>Login with correct credentials</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -1164,6 +1165,42 @@ Session ID: 2d11262e-cca5-4bf9-abd7-3455a918689c
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
+<span class='badge log badge-skip'>1</span>
+</span>
+<p class="name">@skip_scenario</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@skip_scenario</h4>
+<span status="skip" class='badge log badge-skip'>1 skipped</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>12:46:37 pm</td>
+<td>
+<a href="#" class="linked" test-id='95' id='96'>Login page title</a>
+<div class="">
+<span class="badge badge-default">Login page feature.Login page title</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
 <span class='badge log pass-bg'>3</span>
 </span>
 <p class="name">@sanity</p>
@@ -1185,9 +1222,9 @@ Session ID: 2d11262e-cca5-4bf9-abd7-3455a918689c
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>19:04:20 PM</td>
+<td>12:46:36 pm</td>
 <td>
-<a href="#" class="linked" test-id='96' id='110'>To check dataTables</a>
+<a href="#" class="linked" test-id='61' id='89'>To check dataTables</a>
 <div class="">
 <span class="badge badge-default">check data Tables.To check dataTables</span>
 </div>
@@ -1195,9 +1232,9 @@ Session ID: 2d11262e-cca5-4bf9-abd7-3455a918689c
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>19:04:47 PM</td>
+<td>12:46:42 pm</td>
 <td>
-<a href="#" class="linked" test-id='130' id='158'>Login with correct credentials</a>
+<a href="#" class="linked" test-id='95' id='119'>Login with correct credentials</a>
 <div class="">
 <span class="badge badge-default">Login page feature.Login with correct credentials</span>
 </div>
@@ -1205,9 +1242,55 @@ Session ID: 2d11262e-cca5-4bf9-abd7-3455a918689c
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>19:04:47 PM</td>
+<td>12:46:42 pm</td>
 <td>
-<a href="#" class="linked" test-id='130' id='159'>Login with correct credentials</a>
+<a href="#" class="linked" test-id='95' id='120'>Login with correct credentials</a>
+<div class="">
+<span class="badge badge-default">Login page feature.Login with correct credentials</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@skip</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@skip</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:46:42 pm</td>
+<td>
+<a href="#" class="linked" test-id='95' id='119'>Login with correct credentials</a>
+<div class="">
+<span class="badge badge-default">Login page feature.Login with correct credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:46:42 pm</td>
+<td>
+<a href="#" class="linked" test-id='95' id='120'>Login with correct credentials</a>
 <div class="">
 <span class="badge badge-default">Login page feature.Login with correct credentials</span>
 </div>
@@ -1241,93 +1324,11 @@ Session ID: 2d11262e-cca5-4bf9-abd7-3455a918689c
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>19:02:07 PM</td>
+<td>12:46:09 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='6'>Account section count</a>
+<a href="#" class="linked" test-id='7' id='16'>Account section count</a>
 <div class="">
 <span class="badge badge-default">Account page feature.Account section count</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>2</span>
-</span>
-<p class="name">@skip</p>
-<p class="duration text-sm">2 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@skip</h4>
-<span status="pass" class='badge log pass-bg'>2 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:04:47 PM</td>
-<td>
-<a href="#" class="linked" test-id='130' id='158'>Login with correct credentials</a>
-<div class="">
-<span class="badge badge-default">Login page feature.Login with correct credentials</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>19:04:47 PM</td>
-<td>
-<a href="#" class="linked" test-id='130' id='159'>Login with correct credentials</a>
-<div class="">
-<span class="badge badge-default">Login page feature.Login with correct credentials</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log badge-skip'>1</span>
-</span>
-<p class="name">@skip_scenario</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@skip_scenario</h4>
-<span status="skip" class='badge log badge-skip'>1 skipped</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="skip">
-<td><span class="badge log skip-bg">Skip</span></td>
-<td>19:04:30 PM</td>
-<td>
-<a href="#" class="linked" test-id='130' id='131'>Login page title</a>
-<div class="">
-<span class="badge badge-default">Login page feature.Login page title</span>
 </div>
 </td>
 </tr>
@@ -1356,42 +1357,6 @@ Session ID: 2d11262e-cca5-4bf9-abd7-3455a918689c
 <span class="meta">
 <span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">java.lang.AssertionError</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>java.lang.AssertionError</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>19:04:42 PM</td>
-<td>
-<a href="#" class="linked" test-id='52' id='141'>When user gets information section</a>
-<div class="">
-<span class="badge badge-default">Footer section.to check footer information section.When user gets information section</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log badge-danger'>1</span>
-</span>
 <p class="name">org.openqa.selenium.NoSuchElementException</p>
 <p class="duration text-sm">1 tests</p>
 </div>
@@ -1411,11 +1376,47 @@ Session ID: 2d11262e-cca5-4bf9-abd7-3455a918689c
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>19:05:14 PM</td>
+<td>12:46:56 pm</td>
 <td>
-<a href="#" class="linked" test-id='130' id='167'>Then forgot your password link should be displayed</a>
+<a href="#" class="linked" test-id='95' id='142'>Then forgot your password link should be displayed</a>
 <div class="">
 <span class="badge badge-default">Login page feature.Forgot password link.Then forgot your password link should be displayed</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:46:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='4' id='129'>When user gets information section</a>
+<div class="">
+<span class="badge badge-default">Footer section.to check footer information section.When user gets information section</span>
 </div>
 </td>
 </tr>

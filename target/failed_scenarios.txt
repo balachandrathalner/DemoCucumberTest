@@ -1,4 +1,2 @@
-file:src/test/resources/features/ContactUs.feature:13
 file:src/test/resources/features/FooterSection.feature:31
-file:src/test/resources/features/AccountsPage.feature:14
 file:src/test/resources/features/login.feature:11
