@@ -1,266 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="17" passed="14" failed="2" skipped="1">
+<testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-03T12:46:07 IST" name="Default suite" finished-at="2022-03-03T12:47:41 IST" duration-ms="93910">
+  <suite started-at="2022-03-03T17:58:42 IST" name="Default suite" finished-at="2022-03-03T17:59:35 IST" duration-ms="53171">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestNgTestRunner@74e28667]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-03-03T12:46:07 IST" name="Default test" finished-at="2022-03-03T12:47:41 IST" duration-ms="93910">
+    <test started-at="2022-03-03T17:58:42 IST" name="Default test" finished-at="2022-03-03T17:59:35 IST" duration-ms="53171">
       <class name="testRunners.TestNgTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunners.TestNgTestRunner@74e28667]" started-at="2022-03-03T12:46:07 IST" name="setUpClass" finished-at="2022-03-03T12:46:08 IST" duration-ms="997" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunners.TestNgTestRunner@74e28667]" started-at="2022-03-03T17:58:42 IST" name="setUpClass" finished-at="2022-03-03T17:58:43 IST" duration-ms="788" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@8e99809]]>
+                <![CDATA[org.testng.TestRunner@22ead351]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestNgTestRunner@74e28667]" started-at="2022-03-03T12:46:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-03T12:46:30 IST" duration-ms="21284" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestNgTestRunner@74e28667]" started-at="2022-03-03T17:58:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-03T17:59:07 IST" duration-ms="24036" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["to check login page title"]]>
+                <![CDATA["Login with correct credentials"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Optional[Footer section]"]]>
+                <![CDATA["Optional[Login page feature]"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestNgTestRunner@74e28667]" started-at="2022-03-03T12:46:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-03T12:46:30 IST" duration-ms="21240" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["to check footer information section"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Footer section]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestNgTestRunner@74e28667]" started-at="2022-03-03T12:46:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-03T12:46:53 IST" duration-ms="44000" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["to check footer information section"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Footer section]"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertTrue(Assert.java:45)
-at org.testng.Assert.assertTrue(Assert.java:55)
-at stepDefinitions.FooterSectionStep.user_gets_information_section(FooterSectionStep.java:33)
-at ✽.user gets information section(file:///C:/Users/balachandra.4/eclipse-workspace/CucumberAutomation/src/test/resources/features/FooterSection.feature:34)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestNgTestRunner@74e28667]" started-at="2022-03-03T12:46:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-03T12:46:52 IST" duration-ms="43447" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Fill the valid personal information form"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Create new user account]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestNgTestRunner@74e28667]" started-at="2022-03-03T12:46:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-03T12:47:02 IST" duration-ms="53820" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["contact scenario with different sets of data"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[contact Us feature]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestNgTestRunner@74e28667]" started-at="2022-03-03T12:46:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-03T12:46:53 IST" duration-ms="44774" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Account section count"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Account page feature]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestNgTestRunner@74e28667]" started-at="2022-03-03T12:46:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-03T12:47:00 IST" duration-ms="51295" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Accounts page title"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Account page feature]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestNgTestRunner@74e28667]" started-at="2022-03-03T12:46:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-03T12:47:22 IST" duration-ms="73863" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Fill the Invalid personal information form"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Create new user account]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestNgTestRunner@74e28667]" started-at="2022-03-03T12:46:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-03T12:46:37 IST" duration-ms="28623" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["contact scenario with different sets of data"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[contact Us feature]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestNgTestRunner@74e28667]" started-at="2022-03-03T12:46:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-03T12:47:20 IST" duration-ms="71257" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Fill the Invalid personal information form"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Create new user account]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestNgTestRunner@74e28667]" started-at="2022-03-03T12:46:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-03T12:46:36 IST" duration-ms="6343" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[": To check login"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[check data Tables]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestNgTestRunner@74e28667]" started-at="2022-03-03T12:46:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-03T12:46:36 IST" duration-ms="6514" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[": To check login"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[check data Tables]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestNgTestRunner@74e28667]" started-at="2022-03-03T12:46:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-03T12:46:42 IST" duration-ms="6151" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["To check dataTables"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[check data Tables]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestNgTestRunner@74e28667]" started-at="2022-03-03T12:46:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-03T12:46:42 IST" duration-ms="6107" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["To check dataTables"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[check data Tables]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestNgTestRunner@74e28667]" started-at="2022-03-03T12:46:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-03T12:46:43 IST" duration-ms="5735" status="SKIP">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestNgTestRunner@74e28667]" started-at="2022-03-03T17:58:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-03T17:58:51 IST" duration-ms="7723" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -313,7 +90,7 @@ at AppHooks.ApplicationHooks.skip_scenario(ApplicationHooks.java:32)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestNgTestRunner@74e28667]" started-at="2022-03-03T12:46:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-03T12:47:17 IST" duration-ms="34783" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestNgTestRunner@74e28667]" started-at="2022-03-03T17:58:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-03T17:59:17 IST" duration-ms="34247" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -333,9 +110,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'LAP-HYD-0X81095', ip: '192.168.168.248', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [acdf49ab-fde4-468e-9b57-e98a6f505c71, findElement {using=link text, value=Forgot your password?123}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 91.6.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220131231250, moz:debuggerAddress: localhost:61061, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 17604, moz:profile: C:\Users\balachandra.4\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:61061/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: acdf49ab-fde4-468e-9b57-e98a6f505c71]]>
+Command: [1bad01d7-c6ee-4268-83ac-4a3dd314324c, findElement {using=link text, value=Forgot your password?123}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 91.6.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220131231250, moz:debuggerAddress: localhost:64852, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15692, moz:profile: C:\Users\balachandra.4\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:64852/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1bad01d7-c6ee-4268-83ac-4a3dd314324c]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: Forgot your password?123
@@ -343,9 +120,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'LAP-HYD-0X81095', ip: '192.168.168.248', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [acdf49ab-fde4-468e-9b57-e98a6f505c71, findElement {using=link text, value=Forgot your password?123}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 91.6.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220131231250, moz:debuggerAddress: localhost:61061, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 17604, moz:profile: C:\Users\balachandra.4\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:61061/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: acdf49ab-fde4-468e-9b57-e98a6f505c71
+Command: [1bad01d7-c6ee-4268-83ac-4a3dd314324c, findElement {using=link text, value=Forgot your password?123}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 91.6.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220131231250, moz:debuggerAddress: localhost:64852, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15692, moz:profile: C:\Users\balachandra.4\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:64852/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1bad01d7-c6ee-4268-83ac-4a3dd314324c
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -374,23 +151,7 @@ at ✽.forgot your password link should be displayed(file:///C:/Users/balachandr
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestNgTestRunner@74e28667]" started-at="2022-03-03T12:46:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-03T12:47:12 IST" duration-ms="29706" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login with correct credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Login page feature]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunners.TestNgTestRunner@74e28667]" started-at="2022-03-03T12:47:22 IST" name="tearDownClass" finished-at="2022-03-03T12:47:41 IST" duration-ms="18996" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunners.TestNgTestRunner@74e28667]" started-at="2022-03-03T17:59:17 IST" name="tearDownClass" finished-at="2022-03-03T17:59:35 IST" duration-ms="18103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

@@ -1,2 +1,1 @@
-file:src/test/resources/features/FooterSection.feature:31
 file:src/test/resources/features/login.feature:11
