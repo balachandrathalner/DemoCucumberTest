@@ -26,7 +26,7 @@ public class AccountsPagstepDefinition {
 	
 
 	@Given("user already logged into application")
-	public void user_already_logged_into_application(DataTable dataTable) {
+	public void user_already_logged_into_application(DataTable dataTable) throws InterruptedException {
 	    
 		
 		List<Map<String, String>>credList=dataTable.asMaps();
@@ -39,10 +39,12 @@ public class AccountsPagstepDefinition {
 		DriverFactory.getDriver().get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
 		
 		ap=lp.doLogin(userName, pw);
+		
+		
 	
 		
 		
-		
+		Thread.sleep(4000);
 		
 		
 		

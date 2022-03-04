@@ -28,6 +28,7 @@ public class loginStepDefinition {
     @When("^user is gets the title of the page$")
     public void user_is_gets_the_title_of_the_page() throws Throwable {
 
+    	Thread.sleep(3000);
 
     	title=lp.getLoginPageTitle();
     	System.out.println("page title is : "+title);
