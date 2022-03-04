@@ -20,7 +20,7 @@ public class LoginPage {
 	
 	//private By forgotPwLink=By.linkText("Forgot your password?");
 	
-	@FindBy(linkText = "Forgot your password?123")
+	@FindBy(linkText = "Forgot your password?")
 	private WebElement fw;
 	
 	private By signinButton=By.id("SubmitLogin");

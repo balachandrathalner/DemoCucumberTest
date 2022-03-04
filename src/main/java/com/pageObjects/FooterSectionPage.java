@@ -16,6 +16,7 @@ public class FooterSectionPage {
 	
 	private By informationSections=By.xpath("//section[@id='block_various_links_footer']//li/a");
 	
+	private By myAccountSections=By.xpath("//ul[@class='bullet']//li/a");
 	
 	
 	public FooterSectionPage(WebDriver driver) {
@@ -39,7 +40,21 @@ public class FooterSectionPage {
 		
 		return InformationSectionCount;
 	}
+
+	public List<String> getActualMyAccountSectionList() {
+		
+		u=new SeleniumUtiles(driver);
+		return u.getActualList(myAccountSections);
+		
+		
+	}
 	
 	
+	public int getMyAccountSectionCount() {
+		
+		int InformationSectionCount=driver.findElements(myAccountSections).size();
+		
+		return InformationSectionCount;
+	}
 	
 }

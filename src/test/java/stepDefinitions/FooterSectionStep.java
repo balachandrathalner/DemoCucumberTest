@@ -40,8 +40,29 @@ public class FooterSectionStep {
 		Assert.assertTrue(fp.getInformationSectionCount()==expectedCount);
 		
 	}
-
 	
+	@When("user gets my accoun section")
+	public void user_gets_my_accoun_section(DataTable dataTable) {
+
+		
+		List<String> expectedList=dataTable.asList();
+		
+		List<String> actualList=fp.getActualMyAccountSectionList();
+		
+		
+
+		Assert.assertTrue(expectedList.containsAll(actualList));
+		
+	
+	}
+
+
+	@Then("myaccount section should be {int}")
+	public void myaccount_section_should_be(Integer expectedCount) {
+	
+		Assert.assertTrue(fp.getMyAccountSectionCount()==expectedCount);
+		
+	}
 	
 	
 }

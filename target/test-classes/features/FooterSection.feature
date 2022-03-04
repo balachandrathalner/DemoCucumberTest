@@ -28,12 +28,14 @@ When user gets information section
 Then information section should be 8 
 
 
-Scenario: to check footer information section
+Scenario: to check footer my account section
 
 Given user is on landing page
-When user gets information section
-|About us|
-|Sitemap|
+When user gets my accoun section
+|My orders|
+|My credit slips|
+|My addresses|
+|My personal info|
 				
-Then information section should be 8 
+Then myaccount section should be 4
 

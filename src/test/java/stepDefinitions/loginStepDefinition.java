@@ -39,8 +39,10 @@ public class loginStepDefinition {
     public void page_title_should_be_something(String expectedTitleName) throws Throwable {
     	
     	
+System.out.println("Actual**************:"+title);
 
-    	Assert.assertTrue(title.contains(expectedTitleName));
+System.out.println("Exp**************:"+expectedTitleName);
+Assert.assertTrue(title.contains(expectedTitleName));
     	
     	
 
