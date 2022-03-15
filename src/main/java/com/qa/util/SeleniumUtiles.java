@@ -26,7 +26,7 @@ public class SeleniumUtiles {
 	
     public static final int TIME_OUT_LOAD = 30;
 
-    SoftAssert a;
+    SoftAssert aa;
     
 private WebDriver driver;
 
@@ -69,7 +69,7 @@ public SeleniumUtiles(WebDriver driver) {
 		HttpURLConnection huc = null;
 		int respCode = 200;
 
-		a=new SoftAssert();
+		aa=new SoftAssert();
 		String homePage="http://automationpractice.com";
 			
 			
@@ -116,12 +116,12 @@ public SeleniumUtiles(WebDriver driver) {
 		
 			flag=false;
 			
-			a.assertTrue(false,"Broken link");
+			aa.assertTrue(false,"Broken link");
 			}
 			else{
 			System.out.println(url+" is a valid link and response code is :"+respCode);
 			
-			a.assertTrue(true);
+			aa.assertTrue(true);
 			
 			}
 
@@ -140,7 +140,7 @@ public SeleniumUtiles(WebDriver driver) {
 
 		System.out.println("**************************");
 		
-		a.assertAll();
+		aa.assertAll();
 		
 		
 		

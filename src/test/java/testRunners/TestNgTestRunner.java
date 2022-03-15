@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 
 //Runwith(Cucumber.class)
 @CucumberOptions(
-features={"src\\test\\resources\\features"},glue = {"stepDefinitions","AppHooks"},
+features={"src\\test\\resources\\features\\FooterSection.feature"},glue = {"stepDefinitions","AppHooks"},
 		
 		monochrome = true,dryRun = false,
 		//tags = "smoke",
