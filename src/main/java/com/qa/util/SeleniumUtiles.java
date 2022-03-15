@@ -26,7 +26,7 @@ public class SeleniumUtiles {
 	
     public static final int TIME_OUT_LOAD = 30;
 
-    SoftAssert aa;
+    SoftAssert aa =new SoftAssert();
     
 private WebDriver driver;
 
@@ -69,7 +69,7 @@ public SeleniumUtiles(WebDriver driver) {
 		HttpURLConnection huc = null;
 		int respCode = 200;
 
-		aa=new SoftAssert();
+		//aa=new SoftAssert();
 		String homePage="http://automationpractice.com";
 			
 			
