@@ -11,6 +11,7 @@ import org.testng.Assert;
 import com.pageObjects.ContactUsPage;
 import com.pageObjects.LoginPage;
 import com.qa.factory.DriverFactory;
+import com.qa.util.Constants;
 import com.qa.util.ExcelReader;
 import com.qa.util.LoggerHelper;
 
@@ -48,7 +49,7 @@ public class ContactUsStep {
 
 		ExcelReader reader=new ExcelReader();
 		
-		List<Map<String,String>>testData=reader.getData("C:\\Users\\balachandra.4\\OneDrive - Coforge Limited\\Desktop\\automatonData.xlsx", sheetName);
+		List<Map<String,String>>testData=reader.getData(Constants.TEST_DATA_FILE_PATH, sheetName);
 	
 		
 		String subHeading=testData.get(rowNo).get("subjectheading");

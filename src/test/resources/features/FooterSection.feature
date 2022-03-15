@@ -39,3 +39,22 @@ When user gets my accoun section
 				
 Then myaccount section should be 4
 
+
+Scenario: to check the store information
+
+Given user verifies the "Store information" section heading
+Then check the total information is displaying
+
+
+Scenario: verification of Follow us links
+
+Given user checks the "Follow us" links in the footer
+When checks the each of the links
+And checks the links are broken or not
+Then user gets total followup links is 4
+
+
+Scenario: verifiy the all footer links broken or not
+
+Given user check the all footer links broken or not
+

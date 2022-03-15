@@ -1,27 +1,42 @@
 package stepDefinitions;
 
+import java.io.IOException;
+import java.util.Properties;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
 import com.pageObjects.LoginPage;
+import com.qa.data.UserDataManager;
 import com.qa.factory.DriverFactory;
+import com.qa.util.ConfigReader;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.cucumber.java.lu.ugeholl;
 
 public class loginStepDefinition {
 
 	private static String title;
 	
+	private ConfigReader configReader;
+	Properties prop;
+	
+	
 	private LoginPage lp=new LoginPage(DriverFactory.getDriver());
 	
-
+	
+	
+	
     @Given("^user is on login page$")
     public void user_is_on_login_page() throws Throwable {
     	
-    	DriverFactory.getDriver().get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
+    	configReader=new ConfigReader();
+    	prop=configReader.init_prop();
+    
+    	DriverFactory.getDriver().get(prop.getProperty("url"));
 
     }
 
@@ -85,6 +100,27 @@ Assert.assertTrue(title.contains(expectedTitleName));
     	
     	Thread.sleep(5000);
     }
+    
+
+@Given("user logged in as a manager")
+public void user_logged_in_as_a_manager() throws IOException {
+ 
+	configReader=new ConfigReader();
+	prop=configReader.init_prop();
+
+	DriverFactory.getDriver().get(prop.getProperty("url"));
+
+
+	lp.loginAsPM();
+	
+}
+	
+
+@Then("get the title of the page")
+public void get_the_title_of_the_page() {
+
+	
+}
 
 
     

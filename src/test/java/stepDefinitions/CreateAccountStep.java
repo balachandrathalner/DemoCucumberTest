@@ -3,6 +3,7 @@ package stepDefinitions;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.Assert;
@@ -11,6 +12,8 @@ import com.pageObjects.AccountsPage;
 import com.pageObjects.CreateAccountPage;
 import com.pageObjects.LoginPage;
 import com.qa.factory.DriverFactory;
+import com.qa.util.ConfigReader;
+import com.qa.util.Constants;
 import com.qa.util.CreateRandomString;
 import com.qa.util.ExcelReader;
 
@@ -22,6 +25,10 @@ import io.cucumber.java.en.When;
 
 public class CreateAccountStep {
 
+	
+	private ConfigReader configReader;
+	Properties prop;
+	
 	LoginPage lp=new LoginPage(DriverFactory.getDriver());
 	
 	CreateAccountPage cp;
@@ -31,10 +38,13 @@ public class CreateAccountStep {
 	AccountsPage ap=new AccountsPage(DriverFactory.getDriver());
 	
 	@Given("user is allready on landing page")
-	public void user_is_allready_on_landing_page() {
-	    
-		DriverFactory.getDriver().get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
-		
+	public void user_is_allready_on_landing_page() throws IOException {
+
+    	configReader=new ConfigReader();
+    	prop=configReader.init_prop();
+    
+    	DriverFactory.getDriver().get(prop.getProperty("url"));
+
 		
 		
 	
@@ -72,7 +82,7 @@ public class CreateAccountStep {
 	public void user_fills_the_invalid_personal_information_from_the_given_sheetname_and_rownumber(String sheetName, Integer rowNum) throws InvalidFormatException, IOException, InterruptedException {
 	   
 		
-		List<Map<String,String>>testData=reader.getData("C:\\Users\\balachandra.4\\OneDrive - Coforge Limited\\Desktop\\automatonData.xlsx", sheetName);
+		List<Map<String,String>>testData=reader.getData(Constants.TEST_DATA_FILE_PATH, sheetName);
 		
 		String firstName=testData.get(rowNum).get("FirstName");
 		String lastName=testData.get(rowNum).get("LastName");
@@ -149,7 +159,7 @@ public class CreateAccountStep {
 	@Given("user fills the valid personal information from the given  given sheetname {string} and rownumber {int}")
 	public void user_fills_the_valid_personal_information_from_the_given_given_sheetname_and_rownumber(String sheetName, Integer rowNum) throws InvalidFormatException, IOException, InterruptedException {
 	   
-		List<Map<String,String>>testData=reader.getData("C:\\Users\\balachandra.4\\OneDrive - Coforge Limited\\Desktop\\automatonData.xlsx", sheetName);
+		List<Map<String,String>>testData=reader.getData(Constants.TEST_DATA_FILE_PATH, sheetName);
 	
 
 		String firstName=testData.get(rowNum).get("FirstName");

@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 		features={"@target\\failed_scenarios.txt"},glue = {"stepParallel"},
-		
+		//tags = 
 		monochrome = true,dryRun = false,
 		
 				plugin = { "pretty",

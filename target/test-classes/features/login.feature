@@ -27,3 +27,9 @@ Examples:
 |UserName|password|
 |balachandra.thalner@gmail.com|balachandra|
 
+
+
+Scenario: login as manager
+
+Given user logged in as a manager 
+Then get the title of the page

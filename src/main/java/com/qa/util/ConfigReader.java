@@ -7,7 +7,7 @@ import java.util.Properties;
 
 public class ConfigReader {
 	
-	private Properties prop;
+	public Properties prop;
 
 	//This method is used to load the properties from config.properties file
 	
@@ -15,7 +15,7 @@ public class ConfigReader {
 		
 		prop=new Properties();
 		
-		FileInputStream fis=new FileInputStream("C:\\Users\\balachandra.4\\eclipse-workspace\\CucumberAutomation\\src\\test\\resources\\config\\config.properties");
+		FileInputStream fis=new FileInputStream(Constants.getConfigFilePath());
 		
 		prop.load(fis);
 		

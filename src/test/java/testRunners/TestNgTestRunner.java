@@ -5,12 +5,12 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 
-
+//Runwith(Cucumber.class)
 @CucumberOptions(
 features={"src\\test\\resources\\features"},glue = {"stepDefinitions","AppHooks"},
 		
 		monochrome = true,dryRun = false,
-		//tags = "not @skip",
+		//tags = "smoke",
 				plugin = { "pretty",
 		                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 		                
@@ -24,7 +24,7 @@ features={"src\\test\\resources\\features"},glue = {"stepDefinitions","AppHooks"
 
 public class TestNgTestRunner extends AbstractTestNGCucumberTests {
 	
-//	@Override
+	//@Override
 	//@DataProvider(parallel=true)
 	
 	//public Object[][] scenarios(){

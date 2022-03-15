@@ -1,16 +1,28 @@
 package com.pageObjects;
 
+import java.io.IOException;
+import java.util.Properties;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
+import com.qa.data.Login;
+import com.qa.data.UserDataManager;
+import com.qa.factory.DriverFactory;
+import com.qa.util.ConfigReader;
 
+public class LoginPage {
+	
 	private WebDriver driver;
+	Login lo;
 	
 	
+	private ConfigReader configReader;
+	Properties prop;
+
 	//http://demowebshop.tricentis.com/
 	
 	@FindBy(id = "email")
@@ -42,6 +54,11 @@ public class LoginPage {
 	}
 	
 	
+	
+	
+
+
+
 	public String getLoginPageTitle() {
 		
 		return driver.getTitle();
@@ -69,20 +86,24 @@ public class LoginPage {
 		driver.findElement(signinButton).click();
 	}
 	
+
 	
 	
-	public AccountsPage doLogin(String un,String pw) {
+	
+	public AccountsPage doLogin(String usernames,String passwords) {
 		
-		System.out.println("Login with username :"+un+ "and password :" +pw);
-			email.sendKeys(un);
-			driver.findElement(password).sendKeys(pw);
+		System.out.println("Login with username :"+usernames+ "and password :" +passwords);
+			email.sendKeys(usernames);
+			driver.findElement(password).sendKeys(passwords);
 			driver.findElement(signinButton).click();
-			return new AccountsPage(driver);
-			
-			
-		
-		
+			return new AccountsPage(driver);		
 	}
+	
+	
+
+	
+	
+	
 	
 	public void getContactUs() {
 		
@@ -102,4 +123,39 @@ public class LoginPage {
 		driver.findElement(SubmitCreate).click();
 		return new CreateAccountPage(driver);
 	}
+	
+	//=================================
+	
+
+    public AccountsPage EnterUserNameAndPassword(Login loginData) {
+        email.sendKeys(loginData.getUserName());
+        driver.findElement(password).sendKeys(loginData.getPassword());
+        
+        driver.findElement(signinButton).click();
+		return new AccountsPage(driver);		
+     
+    }
+	
+    
+
+    public void loginAsPM() throws IOException {
+    	
+
+    	configReader=new ConfigReader();
+    	prop=configReader.init_prop();
+
+   	
+    	
+    	System.out.println(prop.getProperty("environment"));
+        EnterUserNameAndPassword( UserDataManager.getPMLogin(prop.getProperty("environment")));
+        
+    }
+
+	
+	
+	
+	
+	
+	
+	
 }
