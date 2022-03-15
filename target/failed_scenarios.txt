@@ -1,0 +1,2 @@
+file:src/test/resources/features/FooterSection.feature:49
+file:src/test/resources/features/AccountsPage.feature:8:14
