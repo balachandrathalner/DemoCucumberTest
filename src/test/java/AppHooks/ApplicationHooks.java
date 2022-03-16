@@ -8,6 +8,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
+
 import com.qa.factory.DriverFactory;
 import com.qa.util.ConfigReader;
 
@@ -30,6 +31,7 @@ public class ApplicationHooks {
 		
 		System.out.println("SKIPED SCENARIO is :"+scenario.getName());
 		Assume.assumeTrue(false);
+		//Assert.assertTrue(false);
 	}
 	
 	

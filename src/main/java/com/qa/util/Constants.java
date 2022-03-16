@@ -9,8 +9,8 @@ public class Constants {
     private static final String BASE_PATH = System.getProperty("user.dir");
     private static final String RESOURCES_PATH = BASE_PATH + "/src/test/resources/";
     private static final String CONFIG_FILE_PATH = BASE_PATH + "/src/test/resources/config/config.properties";
-    private static final String EXTENT_CONFIG_FILE_PATH = BASE_PATH + "/extent-config.xml";
-    public static final String TEST_DATA_FILE_PATH = RESOURCES_PATH + "/automatonData.xlsx";
+    private static final String EXTENT_CONFIG_FILE_PATH = BASE_PATH + "extent-config.xml";
+    public static final String TEST_DATA_FILE_PATH = RESOURCES_PATH + "automatonData.xlsx";
   
 
     public static String getResourcesPath() {

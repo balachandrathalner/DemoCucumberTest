@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: testRunners.TestNgTestRunner
 -------------------------------------------------------------------------------
-Tests run: 17, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 153.68 s - in testRunners.TestNgTestRunner
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 246.35 s - in testRunners.TestNgTestRunner

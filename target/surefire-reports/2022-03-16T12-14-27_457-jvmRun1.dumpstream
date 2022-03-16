@@ -1,0 +1,344 @@
+# Created at 2022-03-16T12:19:37.441
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2022-03-16T12:19:53.202
+Unexpected IOException with stream:       org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=99.0.1150.39)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'LAP-HYD-0X81095', ip: '192.168.1.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0-262'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [476cf2b6999435873faba853497fa5e6, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.39, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:63231}, msedge: {msedgedriverVersion: 99.0.1150.39 (83e7eb830583b..., userDataDir: C:\Users\BALACH~1.4\AppData...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63231/devtoo..., se:cdpVersion: 99.0.1150.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 476cf2b6999435873faba853497fa5e6
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:969)
+	at com.qa.factory.DriverFactory.initilizeDriver(DriverFactory.java:82)
+	at AppHooks.ApplicationHooks.launchBrowser(ApplicationHooks.java:60)
+
+
+
+# Created at 2022-03-16T12:19:53.217
+Unexpected IOException with stream:   Given user on form page                          # stepDefinitions.checkStep.user_on_form_page()
+
+
+# Created at 2022-03-16T12:19:53.221
+Unexpected IOException with stream:   When need to send data to form from below tables # stepDefinitions.checkStep.need_to_send_data_to_form_from_below_tables(io.cucumber.datatable.DataTable)
+
+
+# Created at 2022-03-16T12:19:53.223
+Unexpected IOException with stream:     
+
+# Created at 2022-03-16T12:19:53.226
+Unexpected IOException with stream: | 
+
+# Created at 2022-03-16T12:19:53.228
+Unexpected IOException with stream: Name
+
+# Created at 2022-03-16T12:19:53.230
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.232
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.234
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.237
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.239
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.241
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.243
+Unexpected IOException with stream:  | 
+
+# Created at 2022-03-16T12:19:53.246
+Unexpected IOException with stream: city
+
+# Created at 2022-03-16T12:19:53.248
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.251
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.255
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.257
+Unexpected IOException with stream:  | 
+
+# Created at 2022-03-16T12:19:53.259
+Unexpected IOException with stream: number
+
+# Created at 2022-03-16T12:19:53.261
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.263
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.265
+Unexpected IOException with stream:  | 
+
+# Created at 2022-03-16T12:19:53.268
+Unexpected IOException with stream: country
+
+# Created at 2022-03-16T12:19:53.270
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.272
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.275
+Unexpected IOException with stream:  |
+
+# Created at 2022-03-16T12:19:53.277
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-16T12:19:53.283
+Unexpected IOException with stream:     
+
+# Created at 2022-03-16T12:19:53.285
+Unexpected IOException with stream: | 
+
+# Created at 2022-03-16T12:19:53.288
+Unexpected IOException with stream: jayalaxmi
+
+# Created at 2022-03-16T12:19:53.289
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.291
+Unexpected IOException with stream:  | 
+
+# Created at 2022-03-16T12:19:53.293
+Unexpected IOException with stream: talaner
+
+# Created at 2022-03-16T12:19:53.296
+Unexpected IOException with stream:  | 
+
+# Created at 2022-03-16T12:19:53.372
+Unexpected IOException with stream: 83793987
+
+# Created at 2022-03-16T12:19:53.375
+Unexpected IOException with stream:  | 
+
+# Created at 2022-03-16T12:19:53.378
+Unexpected IOException with stream: India
+
+# Created at 2022-03-16T12:19:53.380
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.383
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.386
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.388
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.390
+Unexpected IOException with stream:  |
+
+# Created at 2022-03-16T12:19:53.392
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-16T12:19:53.395
+Unexpected IOException with stream:     
+
+# Created at 2022-03-16T12:19:53.399
+Unexpected IOException with stream: | 
+
+# Created at 2022-03-16T12:19:53.402
+Unexpected IOException with stream: sadhashiva
+
+# Created at 2022-03-16T12:19:53.404
+Unexpected IOException with stream:  | 
+
+# Created at 2022-03-16T12:19:53.407
+Unexpected IOException with stream: hulegar
+
+# Created at 2022-03-16T12:19:53.409
+Unexpected IOException with stream:  | 
+
+# Created at 2022-03-16T12:19:53.412
+Unexpected IOException with stream: 87276763
+
+# Created at 2022-03-16T12:19:53.451
+Unexpected IOException with stream:  | 
+
+# Created at 2022-03-16T12:19:53.454
+Unexpected IOException with stream: sagara
+
+# Created at 2022-03-16T12:19:53.457
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.459
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.461
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.464
+Unexpected IOException with stream:  |
+
+# Created at 2022-03-16T12:19:53.467
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-16T12:19:53.469
+Unexpected IOException with stream:     
+
+# Created at 2022-03-16T12:19:53.472
+Unexpected IOException with stream: | 
+
+# Created at 2022-03-16T12:19:53.474
+Unexpected IOException with stream: suvatte
+
+# Created at 2022-03-16T12:19:53.483
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.486
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.489
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.491
+Unexpected IOException with stream:  | 
+
+# Created at 2022-03-16T12:19:53.494
+Unexpected IOException with stream: kandika
+
+# Created at 2022-03-16T12:19:53.496
+Unexpected IOException with stream:  | 
+
+# Created at 2022-03-16T12:19:53.499
+Unexpected IOException with stream: 56249200
+
+# Created at 2022-03-16T12:19:53.501
+Unexpected IOException with stream:  | 
+
+# Created at 2022-03-16T12:19:53.504
+Unexpected IOException with stream: hamsagaru
+
+# Created at 2022-03-16T12:19:53.506
+Unexpected IOException with stream:  |
+
+# Created at 2022-03-16T12:19:53.511
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-16T12:19:53.514
+Unexpected IOException with stream:     
+
+# Created at 2022-03-16T12:19:53.517
+Unexpected IOException with stream: | 
+
+# Created at 2022-03-16T12:19:53.521
+Unexpected IOException with stream: pannaga
+
+# Created at 2022-03-16T12:19:53.528
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.532
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.534
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.536
+Unexpected IOException with stream:  | 
+
+# Created at 2022-03-16T12:19:53.539
+Unexpected IOException with stream: puutur
+
+# Created at 2022-03-16T12:19:53.541
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.544
+Unexpected IOException with stream:  | 
+
+# Created at 2022-03-16T12:19:53.546
+Unexpected IOException with stream: 828999
+
+# Created at 2022-03-16T12:19:53.549
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.594
+Unexpected IOException with stream:  
+
+# Created at 2022-03-16T12:19:53.598
+Unexpected IOException with stream:  | 
+
+# Created at 2022-03-16T12:19:53.601
+Unexpected IOException with stream: mangalore
+
+# Created at 2022-03-16T12:19:53.603
+Unexpected IOException with stream:  |
+
+# Created at 2022-03-16T12:19:53.606
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-16T12:19:53.609
+Unexpected IOException with stream:   Then user able to submit the form                # stepDefinitions.checkStep.user_able_to_submit_the_form()
+
+
+# Created at 2022-03-16T12:19:53.613
+Unexpected IOException with stream:       java.lang.NullPointerException
+	at AppHooks.ApplicationHooks.tearDown(ApplicationHooks.java:77)
+
+
+
+# Created at 2022-03-16T12:19:53.617
+Unexpected IOException with stream:       java.lang.NullPointerException
+	at AppHooks.ApplicationHooks.quitBrowser(ApplicationHooks.java:66)
+
+
+
+# Created at 2022-03-16T12:19:53.621
+Unexpected IOException: 8,1,testRunners.TestNgTestRunner,runScenario(testRunners.TestNgTestRunner),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: MicrosoftEdge=99.0.1150.39)\000ABuild info: version: '4.1.1'\002C revision: 'e8fcc2cecf'\000ASystem info: host: 'LAP-HYD-0X81095'\002C ip: '192.168.1.10'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0-262'\000ADriver info: org.openqa.selenium.edge.EdgeDriver\000ACommand: [476cf2b6999435873faba853497fa5e6\002C maximizeCurrentWindow {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: msedge\002C browserVersion: 99.0.1150.39\002C javascriptEnabled: true\002C ms:edgeOptions: {debuggerAddress: localhost:63231}\002C msedge: {msedgedriverVersion: 99.0.1150.39 (83e7eb830583b...\002C userDataDir: C:\005CUsers\005CBALACH~1.4\005CAppData...}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:63231/devtoo...\002C se:cdpVersion: 99.0.1150.39\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 476cf2b6999435873faba853497fa5e6,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: MicrosoftEdge=99.0.1150.39)\000ABuild info: version: '4.1.1'\002C revision: 'e8fcc2cecf'\000ASystem info: host: 'LAP-HYD-0X81095'\002C ip: '192.168.1.10'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0-262'\000ADriver info: org.openqa.selenium.edge.EdgeDriver\000ACommand: [476cf2b6999435873faba853497fa5e6\002C maximizeCurrentWindow {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: msedge\002C browserVersion: 99.0.1150.39\002C javascriptEnabled: true\002C ms:edgeOptions: {debuggerAddress: localhost:63231}\002C msedge: {msedgedriverVersion: 99.0.1150.39 (83e7eb830583b...\002C userDataDir: C:\005CUsers\005CBALACH~1.4\005CAppData...}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:63231/devtoo...\002C se:cdpVersion: 99.0.1150.39\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 476cf2b6999435873faba853497fa5e6,TestNgTestRunner.runScenario \00BB NoSuchWindow no such window: target window alre...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: MicrosoftEdge=99.0.1150.39)\000ABuild info: version: '4.1.1'\002C revision: 'e8fcc2cecf'\000ASystem info: host: 'LAP-HYD-0X81095'\002C ip: '192.168.1.10'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0-262'\000ADriver info: org.openqa.selenium.edge.EdgeDriver\000ACommand: [476cf2b6999435873faba853497fa5e6\002C maximizeCurrentWindow {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: msedge\002C browserVersion: 99.0.1150.39\002C javascriptEnabled: true\002C ms:edgeOptions: {debuggerAddress: localhost:63231}\002C msedge: {msedgedriverVersion: 99.0.1150.39 (83e7eb830583b...\002C userDataDir: C:\005CUsers\005CBALACH~1.4\005CAppData...}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:63231/devtoo...\002C se:cdpVersion: 99.0.1150.39\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 476cf2b6999435873faba853497fa5e6\000A
+
+
+# Created at 2022-03-16T12:19:55.290
+Unexpected IOException with stream: Mar 16, 2022 12:19:55 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+
+
+# Created at 2022-03-16T12:20:10.456
+Unexpected IOException with stream: ????????????????????????????????????????????????????????????????????????????
+? View your Cucumber Report at:                                            ?
+? https://reports.cucumber.io/reports/cbdb5b0e-b33b-454e-ad52-08ef135255da ?
+?                                                                          ?
+? This report will self-destruct in 24h.                                   ?
+? Keep reports forever: https://reports.cucumber.io/profile                ?
+????????????????????????????????????????????????????????????????????????????
+
+# Created at 2022-03-16T12:20:10.899
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,testRunners.TestNgTestRunner,null,null,null
+
+
