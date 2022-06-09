@@ -1,6 +1,6 @@
-2022-03-16 12:03:748 INFO  ContactUsStep:37 - *********Browser Launched******************
-2022-03-16 12:03:748 INFO  ContactUsStep:37 - *********Browser Launched******************
-2022-03-16 12:03:575 ERROR ContactUsStep:41 - click on contact us
-2022-03-16 12:03:948 ERROR ContactUsStep:41 - click on contact us
-2022-03-16 12:03:868 INFO  ContactUsStep:61 - sending values to contactus fields
-2022-03-16 12:03:868 INFO  ContactUsStep:61 - sending values to contactus fields
+2022-06-08 18:06:496 INFO  ContactUsStep:37 - *********Browser Launched******************
+2022-06-08 18:06:64 ERROR ContactUsStep:41 - click on contact us
+2022-06-08 18:06:567 INFO  ContactUsStep:61 - sending values to contactus fields
+2022-06-08 18:06:170 INFO  ContactUsStep:37 - *********Browser Launched******************
+2022-06-08 18:06:853 ERROR ContactUsStep:41 - click on contact us
+2022-06-08 18:06:19 INFO  ContactUsStep:61 - sending values to contactus fields

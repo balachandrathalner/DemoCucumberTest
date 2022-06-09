@@ -16,10 +16,10 @@ public class LoggerHelper {
 		}
 		
 		
-		PropertyConfigurator.configure("C:\\Users\\balachandra.4\\eclipse-workspace\\CucumberAutomation\\src\\test\\resources\\log4j.properties");
+		PropertyConfigurator.configure(Constants.LOG4J_CONFIG_FILE_PATH);
 		root=true;
 		return Logger.getLogger(cls);
-
+		
 		
 	}
 	

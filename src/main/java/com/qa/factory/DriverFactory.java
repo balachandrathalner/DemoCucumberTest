@@ -29,12 +29,12 @@ public class DriverFactory {
 		if(browserName.contains("chrome")) {
 			
 
-			//System.setProperty("webdriver.chrome.driver", "C:\\Users\\balachandra.4\\OneDrive - Coforge Limited\\Desktop\\Softwares\\Chromedriver\\Chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\balachandra.4\\OneDrive - Coforge Limited\\Desktop\\Softwares\\Chromedriver\\Chromedriver.exe");
 			
 			//driver=new ChromeDriver();
 			
 			
-			WebDriverManager.chromedriver().setup();
+			//WebDriverManager.chromedriver().setup();
 			
 			ChromeOptions options=new ChromeOptions();
 			

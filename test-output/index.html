@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-failed">Default suite</span>
+              <span class="suite-name border-skipped">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\balachandra.4\AppData\Local\Temp\testng-eclipse--1863871195\testng-customsuite.xml</span>
+                    <span>C:\Users\balachandra.4\AppData\Local\Temp\testng-eclipse--780852495\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,51 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">21 methods, 7 failed,   14 passed</span>
+                    <span class="method-stats">21 methods,  1 skipped,  20 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
                     </span>
-                    <div class="method-list-content failed suite-Default_suite">
+                    <div class="method-list-content skipped suite-Default_suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;to check footer information section&quot;, &quot;Optional[Footer section]&quot;)">runScenario("to check footer information section", "Optional[Footer section]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;contact scenario with different sets of data&quot;, &quot;Optional[contact Us feature]&quot;)">runScenario("contact scenario with different sets of data", "Optional[contact Us feature]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login page title&quot;, &quot;Optional[Login page feature]&quot;)">runScenario("Login page title", "Optional[Login page feature]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;to check login page title&quot;, &quot;Optional[Footer section]&quot;)">runScenario("to check login page title", "Optional[Footer section]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;contact scenario with different sets of data&quot;, &quot;Optional[contact Us feature]&quot;)">runScenario("contact scenario with different sets of data", "Optional[contact Us feature]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Fill the valid personal information form&quot;, &quot;Optional[Create new user account]&quot;)">runScenario("Fill the valid personal information form", "Optional[Create new user account]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;to check footer my account section&quot;, &quot;Optional[Footer section]&quot;)">runScenario("to check footer my account section", "Optional[Footer section]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                    </div> <!-- method-list-content skipped suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -148,7 +118,42 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Accounts page title&quot;, &quot;Optional[Account page feature]&quot;)">runScenario("Accounts page title", "Optional[Account page feature]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Fill the Invalid personal information form&quot;, &quot;Optional[Create new user account]&quot;)">runScenario("Fill the Invalid personal information form", "Optional[Create new user account]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;to check footer information section&quot;, &quot;Optional[Footer section]&quot;)">runScenario("to check footer information section", "Optional[Footer section]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;verification of Follow us links&quot;, &quot;Optional[Footer section]&quot;)">runScenario("verification of Follow us links", "Optional[Footer section]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;To check dataTables&quot;, &quot;Optional[check data Tables]&quot;)">runScenario("To check dataTables", "Optional[check data Tables]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;To check dataTables&quot;, &quot;Optional[check data Tables]&quot;)">runScenario("To check dataTables", "Optional[check data Tables]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;login as manager&quot;, &quot;Optional[Login page feature]&quot;)">runScenario("login as manager", "Optional[Login page feature]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Forgot password link&quot;, &quot;Optional[Login page feature]&quot;)">runScenario("Forgot password link", "Optional[Login page feature]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -163,12 +168,42 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;to check the store information&quot;, &quot;Optional[Footer section]&quot;)">runScenario("to check the store information", "Optional[Footer section]")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;contact scenario with different sets of data&quot;, &quot;Optional[contact Us feature]&quot;)">runScenario("contact scenario with different sets of data", "Optional[contact Us feature]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;To check dataTables&quot;, &quot;Optional[check data Tables]&quot;)">runScenario("To check dataTables", "Optional[check data Tables]")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Fill the Invalid personal information form&quot;, &quot;Optional[Create new user account]&quot;)">runScenario("Fill the Invalid personal information form", "Optional[Create new user account]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;contact scenario with different sets of data&quot;, &quot;Optional[contact Us feature]&quot;)">runScenario("contact scenario with different sets of data", "Optional[contact Us feature]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Fill the valid personal information form&quot;, &quot;Optional[Create new user account]&quot;)">runScenario("Fill the valid personal information form", "Optional[Create new user account]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;: To check login&quot;, &quot;Optional[check data Tables]&quot;)">runScenario(": To check login", "Optional[check data Tables]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;to check login page title&quot;, &quot;Optional[Footer section]&quot;)">runScenario("to check login page title", "Optional[Footer section]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;to check footer my account section&quot;, &quot;Optional[Footer section]&quot;)">runScenario("to check footer my account section", "Optional[Footer section]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;: To check login&quot;, &quot;Optional[check data Tables]&quot;)">runScenario(": To check login", "Optional[check data Tables]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -178,42 +213,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Accounts page title&quot;, &quot;Optional[Account page feature]&quot;)">runScenario("Accounts page title", "Optional[Account page feature]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Forgot password link&quot;, &quot;Optional[Login page feature]&quot;)">runScenario("Forgot password link", "Optional[Login page feature]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Fill the Invalid personal information form&quot;, &quot;Optional[Create new user account]&quot;)">runScenario("Fill the Invalid personal information form", "Optional[Create new user account]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;: To check login&quot;, &quot;Optional[check data Tables]&quot;)">runScenario(": To check login", "Optional[check data Tables]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;verification of Follow us links&quot;, &quot;Optional[Footer section]&quot;)">runScenario("verification of Follow us links", "Optional[Footer section]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Fill the Invalid personal information form&quot;, &quot;Optional[Create new user account]&quot;)">runScenario("Fill the Invalid personal information form", "Optional[Create new user account]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;: To check login&quot;, &quot;Optional[check data Tables]&quot;)">runScenario(": To check login", "Optional[check data Tables]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;To check dataTables&quot;, &quot;Optional[check data Tables]&quot;)">runScenario("To check dataTables", "Optional[check data Tables]")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testRunners.TestNgTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;to check the store information&quot;, &quot;Optional[Footer section]&quot;)">runScenario("to check the store information", "Optional[Footer section]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -228,484 +228,59 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
+          <div class="suite-Default_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">testRunners.TestNgTestRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;to check footer information section&quot;, &quot;Optional[Footer section]&quot;)">
-                  </a> <!-- runScenario("to check footer information section", "Optional[Footer section]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("to check footer information section", "Optional[Footer section]")</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;LAP-HYD-0X81095&apos;, ip: &apos;192.168.1.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [b23d851dfa75b094d401c63378dd8871, quit {}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.39, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61363}, msedge: {msedgedriverVersion: 99.0.1150.39 (83e7eb830583b..., userDataDir: C:\Users\BALACH~1.4\AppData...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61363/devtoo..., se:cdpVersion: 99.0.1150.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b23d851dfa75b094d401c63378dd8871
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:132)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:439)
-	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:287)
-	at AppHooks.ApplicationHooks.quitBrowser(ApplicationHooks.java:66)
-Caused by: java.util.concurrent.ExecutionException: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;LAP-HYD-0X81095&apos;, ip: &apos;192.168.1.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: driver.version: unknown
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:439)
-	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:287)
-	at AppHooks.ApplicationHooks.quitBrowser(ApplicationHooks.java:66)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
-	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
-	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:101)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
-	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;LAP-HYD-0X81095&apos;, ip: &apos;192.168.1.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.os.OsProcess.waitFor(OsProcess.java:174)
-	at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:127)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$2(DriverCommandExecutor.java:122)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
-	... 3 more
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;contact scenario with different sets of data&quot;, &quot;Optional[contact Us feature]&quot;)">
-                  </a> <!-- runScenario("contact scenario with different sets of data", "Optional[contact Us feature]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("contact scenario with different sets of data", "Optional[contact Us feature]")</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;center_column&apos;]/p&quot;}
-  (Session info: MicrosoftEdge=99.0.1150.39)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;LAP-HYD-0X81095&apos;, ip: &apos;192.168.1.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [cb128704a416b81255a634284a150840, findElement {using=xpath, value=//div[@id=&apos;center_column&apos;]/p}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.39, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61326}, msedge: {msedgedriverVersion: 99.0.1150.39 (83e7eb830583b..., userDataDir: C:\Users\BALACH~1.4\AppData...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61326/devtoo..., se:cdpVersion: 99.0.1150.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cb128704a416b81255a634284a150840
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at com.pageObjects.ContactUsPage.getSuccessMsg(ContactUsPage.java:58)
-	at stepDefinitions.ContactUsStep.it_shows_successful_message(ContactUsStep.java:79)
-	at ✽.it shows successful message &quot;Your message has been successfully sent to our team.&quot;(file:///C:/Users/balachandra.4/eclipse-workspace/CucumberAutomation/src/test/resources/features/ContactUs.feature:8)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="runScenario(&quot;Login page title&quot;, &quot;Optional[Login page feature]&quot;)">
                   </a> <!-- runScenario("Login page title", "Optional[Login page feature]") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Login page title", "Optional[Login page feature]")</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertTrue(Assert.java:45)
-	at org.testng.Assert.assertTrue(Assert.java:55)
-	at AppHooks.ApplicationHooks.skip_scenario(ApplicationHooks.java:34)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;to check login page title&quot;, &quot;Optional[Footer section]&quot;)">
-                  </a> <!-- runScenario("to check login page title", "Optional[Footer section]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("to check login page title", "Optional[Footer section]")</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;LAP-HYD-0X81095&apos;, ip: &apos;192.168.1.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [32b871c00497562f92a7b3ef1e63b9d8, quit {}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.39, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61434}, msedge: {msedgedriverVersion: 99.0.1150.39 (83e7eb830583b..., userDataDir: C:\Users\BALACH~1.4\AppData...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61434/devtoo..., se:cdpVersion: 99.0.1150.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 32b871c00497562f92a7b3ef1e63b9d8
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:132)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:439)
-	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:287)
-	at AppHooks.ApplicationHooks.quitBrowser(ApplicationHooks.java:66)
-Caused by: java.util.concurrent.ExecutionException: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;LAP-HYD-0X81095&apos;, ip: &apos;192.168.1.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: driver.version: unknown
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:439)
-	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:287)
-	at AppHooks.ApplicationHooks.quitBrowser(ApplicationHooks.java:66)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
-	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
-	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:101)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+                  <div class="stack-trace">org.testng.SkipException: got: &lt;false&gt;, expected: is &lt;true&gt;
+	at io.cucumber.testng.TestCaseResultObserver.lambda$assertTestCasePassed$1(TestCaseResultObserver.java:27)
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:66)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
 	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)
 	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
 	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)
 	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
 	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at jdk.internal.reflect.GeneratedMethodAccessor97.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
-	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;LAP-HYD-0X81095&apos;, ip: &apos;192.168.1.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.os.OsProcess.waitFor(OsProcess.java:174)
-	at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:127)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$2(DriverCommandExecutor.java:122)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
-	... 3 more
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;contact scenario with different sets of data&quot;, &quot;Optional[contact Us feature]&quot;)">
-                  </a> <!-- runScenario("contact scenario with different sets of data", "Optional[contact Us feature]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("contact scenario with different sets of data", "Optional[contact Us feature]")</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;LAP-HYD-0X81095&apos;, ip: &apos;192.168.1.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [2c307322883529ccb7d309e78502b3d5, quit {}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.39, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61330}, msedge: {msedgedriverVersion: 99.0.1150.39 (83e7eb830583b..., userDataDir: C:\Users\BALACH~1.4\AppData...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61330/devtoo..., se:cdpVersion: 99.0.1150.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2c307322883529ccb7d309e78502b3d5
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:132)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:439)
-	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:287)
-	at AppHooks.ApplicationHooks.quitBrowser(ApplicationHooks.java:66)
-Caused by: java.util.concurrent.ExecutionException: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;LAP-HYD-0X81095&apos;, ip: &apos;192.168.1.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: driver.version: unknown
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:439)
-	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:287)
-	at AppHooks.ApplicationHooks.quitBrowser(ApplicationHooks.java:66)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
-	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
-	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:101)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
-	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;LAP-HYD-0X81095&apos;, ip: &apos;192.168.1.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.os.OsProcess.waitFor(OsProcess.java:174)
-	at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:127)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$2(DriverCommandExecutor.java:122)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
-	... 3 more
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Fill the valid personal information form&quot;, &quot;Optional[Create new user account]&quot;)">
-                  </a> <!-- runScenario("Fill the valid personal information form", "Optional[Create new user account]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Fill the valid personal information form", "Optional[Create new user account]")</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;LAP-HYD-0X81095&apos;, ip: &apos;192.168.1.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [1dcccf65850f5203daee39838f7f22f0, quit {}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.39, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61274}, msedge: {msedgedriverVersion: 99.0.1150.39 (83e7eb830583b..., userDataDir: C:\Users\BALACH~1.4\AppData...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61274/devtoo..., se:cdpVersion: 99.0.1150.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1dcccf65850f5203daee39838f7f22f0
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:132)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:439)
-	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:287)
-	at AppHooks.ApplicationHooks.quitBrowser(ApplicationHooks.java:66)
-Caused by: java.util.concurrent.ExecutionException: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;LAP-HYD-0X81095&apos;, ip: &apos;192.168.1.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: driver.version: unknown
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:439)
-	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:287)
-	at AppHooks.ApplicationHooks.quitBrowser(ApplicationHooks.java:66)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
-	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
-	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:101)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
-	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;LAP-HYD-0X81095&apos;, ip: &apos;192.168.1.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.os.OsProcess.waitFor(OsProcess.java:174)
-	at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:127)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$2(DriverCommandExecutor.java:122)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
-	... 3 more
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;to check footer my account section&quot;, &quot;Optional[Footer section]&quot;)">
-                  </a> <!-- runScenario("to check footer my account section", "Optional[Footer section]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("to check footer my account section", "Optional[Footer section]")</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;LAP-HYD-0X81095&apos;, ip: &apos;192.168.1.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [327c83ad06c671bf2a017f83ce2d0446, quit {}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.39, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61279}, msedge: {msedgedriverVersion: 99.0.1150.39 (83e7eb830583b..., userDataDir: C:\Users\BALACH~1.4\AppData...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61279/devtoo..., se:cdpVersion: 99.0.1150.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 327c83ad06c671bf2a017f83ce2d0446
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:132)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:439)
-	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:287)
-	at AppHooks.ApplicationHooks.quitBrowser(ApplicationHooks.java:66)
-Caused by: java.util.concurrent.ExecutionException: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;LAP-HYD-0X81095&apos;, ip: &apos;192.168.1.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: driver.version: unknown
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:439)
-	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:287)
-	at AppHooks.ApplicationHooks.quitBrowser(ApplicationHooks.java:66)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
-	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
-	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:101)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
-	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;LAP-HYD-0X81095&apos;, ip: &apos;192.168.1.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.os.OsProcess.waitFor(OsProcess.java:174)
-	at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:127)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$2(DriverCommandExecutor.java:122)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
-	... 3 more
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.junit.AssumptionViolatedException: got: &lt;false&gt;, expected: is &lt;true&gt;
+	at org.junit.Assume.assumeThat(Assume.java:106)
+	at org.junit.Assume.assumeTrue(Assume.java:50)
+	at AppHooks.ApplicationHooks.skip_scenario(ApplicationHooks.java:33)
 
 </div> <!-- stack-trace -->
                   <em>
@@ -713,7 +288,7 @@ Driver info: driver.version: unknown
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
+          </div> <!-- suite-Default_suite-class-skipped -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -722,10 +297,80 @@ Driver info: driver.version: unknown
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="runScenario(&quot;Accounts page title&quot;, &quot;Optional[Account page feature]&quot;)">
+                  </a> <!-- runScenario("Accounts page title", "Optional[Account page feature]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Accounts page title", "Optional[Account page feature]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Fill the Invalid personal information form&quot;, &quot;Optional[Create new user account]&quot;)">
+                  </a> <!-- runScenario("Fill the Invalid personal information form", "Optional[Create new user account]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Fill the Invalid personal information form", "Optional[Create new user account]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;to check footer information section&quot;, &quot;Optional[Footer section]&quot;)">
+                  </a> <!-- runScenario("to check footer information section", "Optional[Footer section]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("to check footer information section", "Optional[Footer section]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;verification of Follow us links&quot;, &quot;Optional[Footer section]&quot;)">
+                  </a> <!-- runScenario("verification of Follow us links", "Optional[Footer section]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("verification of Follow us links", "Optional[Footer section]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;To check dataTables&quot;, &quot;Optional[check data Tables]&quot;)">
+                  </a> <!-- runScenario("To check dataTables", "Optional[check data Tables]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("To check dataTables", "Optional[check data Tables]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;To check dataTables&quot;, &quot;Optional[check data Tables]&quot;)">
+                  </a> <!-- runScenario("To check dataTables", "Optional[check data Tables]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("To check dataTables", "Optional[check data Tables]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="runScenario(&quot;login as manager&quot;, &quot;Optional[Login page feature]&quot;)">
                   </a> <!-- runScenario("login as manager", "Optional[Login page feature]") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("login as manager", "Optional[Login page feature]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Forgot password link&quot;, &quot;Optional[Login page feature]&quot;)">
+                  </a> <!-- runScenario("Forgot password link", "Optional[Login page feature]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Forgot password link", "Optional[Login page feature]")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -752,20 +397,80 @@ Driver info: driver.version: unknown
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;to check the store information&quot;, &quot;Optional[Footer section]&quot;)">
-                  </a> <!-- runScenario("to check the store information", "Optional[Footer section]") -->
+                  <a name="runScenario(&quot;contact scenario with different sets of data&quot;, &quot;Optional[contact Us feature]&quot;)">
+                  </a> <!-- runScenario("contact scenario with different sets of data", "Optional[contact Us feature]") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("to check the store information", "Optional[Footer section]")</span>
+                  <span class="parameters">("contact scenario with different sets of data", "Optional[contact Us feature]")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;To check dataTables&quot;, &quot;Optional[check data Tables]&quot;)">
-                  </a> <!-- runScenario("To check dataTables", "Optional[check data Tables]") -->
+                  <a name="runScenario(&quot;Fill the Invalid personal information form&quot;, &quot;Optional[Create new user account]&quot;)">
+                  </a> <!-- runScenario("Fill the Invalid personal information form", "Optional[Create new user account]") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("To check dataTables", "Optional[check data Tables]")</span>
+                  <span class="parameters">("Fill the Invalid personal information form", "Optional[Create new user account]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;contact scenario with different sets of data&quot;, &quot;Optional[contact Us feature]&quot;)">
+                  </a> <!-- runScenario("contact scenario with different sets of data", "Optional[contact Us feature]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("contact scenario with different sets of data", "Optional[contact Us feature]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Fill the valid personal information form&quot;, &quot;Optional[Create new user account]&quot;)">
+                  </a> <!-- runScenario("Fill the valid personal information form", "Optional[Create new user account]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Fill the valid personal information form", "Optional[Create new user account]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;: To check login&quot;, &quot;Optional[check data Tables]&quot;)">
+                  </a> <!-- runScenario(": To check login", "Optional[check data Tables]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">(": To check login", "Optional[check data Tables]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;to check login page title&quot;, &quot;Optional[Footer section]&quot;)">
+                  </a> <!-- runScenario("to check login page title", "Optional[Footer section]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("to check login page title", "Optional[Footer section]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;to check footer my account section&quot;, &quot;Optional[Footer section]&quot;)">
+                  </a> <!-- runScenario("to check footer my account section", "Optional[Footer section]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("to check footer my account section", "Optional[Footer section]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;: To check login&quot;, &quot;Optional[check data Tables]&quot;)">
+                  </a> <!-- runScenario(": To check login", "Optional[check data Tables]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">(": To check login", "Optional[check data Tables]")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -782,80 +487,10 @@ Driver info: driver.version: unknown
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Accounts page title&quot;, &quot;Optional[Account page feature]&quot;)">
-                  </a> <!-- runScenario("Accounts page title", "Optional[Account page feature]") -->
+                  <a name="runScenario(&quot;to check the store information&quot;, &quot;Optional[Footer section]&quot;)">
+                  </a> <!-- runScenario("to check the store information", "Optional[Footer section]") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Accounts page title", "Optional[Account page feature]")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Forgot password link&quot;, &quot;Optional[Login page feature]&quot;)">
-                  </a> <!-- runScenario("Forgot password link", "Optional[Login page feature]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Forgot password link", "Optional[Login page feature]")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Fill the Invalid personal information form&quot;, &quot;Optional[Create new user account]&quot;)">
-                  </a> <!-- runScenario("Fill the Invalid personal information form", "Optional[Create new user account]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Fill the Invalid personal information form", "Optional[Create new user account]")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;: To check login&quot;, &quot;Optional[check data Tables]&quot;)">
-                  </a> <!-- runScenario(": To check login", "Optional[check data Tables]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">(": To check login", "Optional[check data Tables]")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;verification of Follow us links&quot;, &quot;Optional[Footer section]&quot;)">
-                  </a> <!-- runScenario("verification of Follow us links", "Optional[Footer section]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("verification of Follow us links", "Optional[Footer section]")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Fill the Invalid personal information form&quot;, &quot;Optional[Create new user account]&quot;)">
-                  </a> <!-- runScenario("Fill the Invalid personal information form", "Optional[Create new user account]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Fill the Invalid personal information form", "Optional[Create new user account]")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;: To check login&quot;, &quot;Optional[check data Tables]&quot;)">
-                  </a> <!-- runScenario(": To check login", "Optional[check data Tables]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">(": To check login", "Optional[check data Tables]")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;To check dataTables&quot;, &quot;Optional[check data Tables]&quot;)">
-                  </a> <!-- runScenario("To check dataTables", "Optional[check data Tables]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("To check dataTables", "Optional[check data Tables]")</span>
+                  <span class="parameters">("to check the store information", "Optional[Footer section]")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -865,7 +500,7 @@ Driver info: driver.version: unknown
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\balachandra.4\AppData\Local\Temp\testng-eclipse--1863871195\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\balachandra.4\AppData\Local\Temp\testng-eclipse--780852495\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -926,92 +561,92 @@ data.addRows(21);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'testRunners.TestNgTestRunner')
-data.setCell(0, 3, 411579);
+data.setCell(0, 3, 102443);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'testRunners.TestNgTestRunner')
-data.setCell(1, 3, 135071);
+data.setCell(1, 3, 48111);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'testRunners.TestNgTestRunner')
-data.setCell(2, 3, 122125);
+data.setCell(2, 3, 43469);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'runScenario')
 data.setCell(3, 2, 'testRunners.TestNgTestRunner')
-data.setCell(3, 3, 108273);
+data.setCell(3, 3, 40920);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'runScenario')
 data.setCell(4, 2, 'testRunners.TestNgTestRunner')
-data.setCell(4, 3, 88288);
+data.setCell(4, 3, 39634);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'runScenario')
 data.setCell(5, 2, 'testRunners.TestNgTestRunner')
-data.setCell(5, 3, 78430);
+data.setCell(5, 3, 38837);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'runScenario')
 data.setCell(6, 2, 'testRunners.TestNgTestRunner')
-data.setCell(6, 3, 74734);
+data.setCell(6, 3, 38311);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'runScenario')
 data.setCell(7, 2, 'testRunners.TestNgTestRunner')
-data.setCell(7, 3, 74103);
+data.setCell(7, 3, 29788);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'runScenario')
 data.setCell(8, 2, 'testRunners.TestNgTestRunner')
-data.setCell(8, 3, 72714);
+data.setCell(8, 3, 27314);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'runScenario')
 data.setCell(9, 2, 'testRunners.TestNgTestRunner')
-data.setCell(9, 3, 69767);
+data.setCell(9, 3, 18973);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'runScenario')
 data.setCell(10, 2, 'testRunners.TestNgTestRunner')
-data.setCell(10, 3, 68334);
+data.setCell(10, 3, 16544);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'runScenario')
 data.setCell(11, 2, 'testRunners.TestNgTestRunner')
-data.setCell(11, 3, 51836);
+data.setCell(11, 3, 16051);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'runScenario')
 data.setCell(12, 2, 'testRunners.TestNgTestRunner')
-data.setCell(12, 3, 48865);
+data.setCell(12, 3, 15344);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'runScenario')
 data.setCell(13, 2, 'testRunners.TestNgTestRunner')
-data.setCell(13, 3, 39142);
+data.setCell(13, 3, 15017);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'runScenario')
 data.setCell(14, 2, 'testRunners.TestNgTestRunner')
-data.setCell(14, 3, 32434);
+data.setCell(14, 3, 11504);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'runScenario')
 data.setCell(15, 2, 'testRunners.TestNgTestRunner')
-data.setCell(15, 3, 29004);
+data.setCell(15, 3, 10623);
 data.setCell(16, 0, 16)
 data.setCell(16, 1, 'runScenario')
 data.setCell(16, 2, 'testRunners.TestNgTestRunner')
-data.setCell(16, 3, 28552);
+data.setCell(16, 3, 2796);
 data.setCell(17, 0, 17)
 data.setCell(17, 1, 'runScenario')
 data.setCell(17, 2, 'testRunners.TestNgTestRunner')
-data.setCell(17, 3, 27079);
+data.setCell(17, 3, 2758);
 data.setCell(18, 0, 18)
 data.setCell(18, 1, 'runScenario')
 data.setCell(18, 2, 'testRunners.TestNgTestRunner')
-data.setCell(18, 3, 26133);
+data.setCell(18, 3, 2717);
 data.setCell(19, 0, 19)
 data.setCell(19, 1, 'runScenario')
 data.setCell(19, 2, 'testRunners.TestNgTestRunner')
-data.setCell(19, 3, 25826);
+data.setCell(19, 3, 2553);
 data.setCell(20, 0, 20)
 data.setCell(20, 1, 'runScenario')
 data.setCell(20, 2, 'testRunners.TestNgTestRunner')
-data.setCell(20, 3, 23094);
+data.setCell(20, 3, 2553);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 27 minutes</span>
+              <span class="suite-total-time">Total running time: 8 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -1039,110 +674,96 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testRunners.TestNgTestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@656a3d6b)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@57fd3b57)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("contact scenario with different sets of data", "Optional[contact Us feature]")</span>
-                <span class="method-start">1387 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("Fill the valid personal information form", "Optional[Create new user account]")</span>
-                <span class="method-start">1387 ms</span>
+                <span class="method-name">runScenario("Accounts page title", "Optional[Account page feature]")</span>
+                <span class="method-start">1089 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Account section count", "Optional[Account page feature]")</span>
-                <span class="method-start">1387 ms</span>
+                <span class="method-start">49213 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">runScenario("Accounts page title", "Optional[Account page feature]")</span>
-                <span class="method-start">1387 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Fill the Invalid personal information form", "Optional[Create new user account]")</span>
-                <span class="method-start">1387 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">runScenario("contact scenario with different sets of data", "Optional[contact Us feature]")</span>
-                <span class="method-start">1387 ms</span>
+                <span class="method-start">88053 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("contact scenario with different sets of data", "Optional[contact Us feature]")</span>
+                <span class="method-start">126367 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Fill the Invalid personal information form", "Optional[Create new user account]")</span>
-                <span class="method-start">1387 ms</span>
+                <span class="method-start">156159 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
+                <span class="method-name">runScenario("Fill the Invalid personal information form", "Optional[Create new user account]")</span>
+                <span class="method-start">197083 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Fill the valid personal information form", "Optional[Create new user account]")</span>
+                <span class="method-start">240554 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">runScenario("to check login page title", "Optional[Footer section]")</span>
-                <span class="method-start">1388 ms</span>
+                <span class="method-start">280190 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("to check footer my account section", "Optional[Footer section]")</span>
-                <span class="method-start">1388 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">runScenario("to check footer information section", "Optional[Footer section]")</span>
-                <span class="method-start">1388 ms</span>
+                <span class="method-start">295535 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("to check footer my account section", "Optional[Footer section]")</span>
+                <span class="method-start">307042 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("to check the store information", "Optional[Footer section]")</span>
-                <span class="method-start">69729 ms</span>
+                <span class="method-start">326017 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("verification of Follow us links", "Optional[Footer section]")</span>
-                <span class="method-start">74109 ms</span>
+                <span class="method-start">336642 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("verifiy the all footer links broken or not", "Optional[Footer section]")</span>
-                <span class="method-start">75492 ms</span>
+                <span class="method-start">352696 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario(": To check login", "Optional[check data Tables]")</span>
-                <span class="method-start">76134 ms</span>
+                <span class="method-start">455142 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario(": To check login", "Optional[check data Tables]")</span>
-                <span class="method-start">79823 ms</span>
+                <span class="method-start">457904 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("To check dataTables", "Optional[check data Tables]")</span>
-                <span class="method-start">89680 ms</span>
+                <span class="method-start">460703 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("To check dataTables", "Optional[check data Tables]")</span>
-                <span class="method-start">105959 ms</span>
+                <span class="method-start">463422 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">runScenario("Login page title", "Optional[Login page feature]")</span>
-                <span class="method-start">108570 ms</span>
+                <span class="method-start">465976 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Forgot password link", "Optional[Login page feature]")</span>
-                <span class="method-start">109662 ms</span>
+                <span class="method-start">468532 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login with correct credentials", "Optional[Login page feature]")</span>
-                <span class="method-start">118252 ms</span>
+                <span class="method-start">483551 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("login as manager", "Optional[Login page feature]")</span>
-                <span class="method-start">118596 ms</span>
+                <span class="method-start">510867 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">412978 ms</span>
+                <span class="method-start">527414 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
